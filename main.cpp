@@ -27,11 +27,32 @@ bool Action(char inputaction)
 
 void Input(char inputfile[105], char outputfile[105])
 {
-
+    cin.ignore();
     cout <<"Prosze wprowadzic nazwe wejsciowego pliku txt z danymi METAR (dlugosc nazwy nie powinna przekraczac 100 znakow)" << endl;
     cin.getline(inputfile,105);
     cout << "Prosze wprowadzic nazwe pliku wyjsciowego txt (nazwa pliku nie powinna przekraczac 100 znakow)" << endl;
     cin.getline(outputfile, 105);
+}
+
+void ProcessFile(char inputfile[105]) {
+    fstream infile;
+    infile.open(inputfile,ios::in);
+    if (!infile) {
+        cout << "blad";
+    }
+    const int linelenght = 128;
+    char line[linelenght];
+
+    while (infile.getline(line, linelenght)) {
+        cout << "meow" << endl;
+    }
+
+    if (infile.bad()) {
+        cout << "blad";
+    }
+
+    infile.close();
+
 }
 
 int main() {
@@ -41,7 +62,7 @@ int main() {
         char inputfile[105];
         char outputfile[105];
         Input(inputfile, outputfile);
-        cout << inputfile << " " << outputfile << endl;
+        ProcessFile(inputfile);
         return 0;
     }
     else {
