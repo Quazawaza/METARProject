@@ -41,16 +41,21 @@ void ProcessFile(char inputfile[105]) {
         cout << "blad";
     }
     const int linelenght = 128;
-    char line[linelenght];
+    char *line = new char[linelenght];
 
     while (infile.getline(line, linelenght)) {
-        cout << "meow" << endl;
+        char *ptr = line;
+         while (*ptr != '\0') {
+            cout << *ptr;
+            ++ptr;
+        }
+        cout << endl;
     }
 
     if (infile.bad()) {
         cout << "blad";
     }
-
+    delete[] line;
     infile.close();
 
 }
