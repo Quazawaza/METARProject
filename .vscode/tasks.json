@@ -2,7 +2,6 @@
     "tasks": [
         {
             "type": "cppbuild",
-<<<<<<< HEAD
             "label": "C/C++: g++.exe build active file",
             "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
             "args": [
@@ -11,26 +10,12 @@
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
-=======
-            "label": "C/C++: cl.exe build active file",
-            "command": "cl.exe",
-            "args": [
-                "/Zi",
-                "/EHsc",
-                "/nologo",
-                "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
->>>>>>> d59a549ee6a3d4488d86b8f09a155cbb2e8bf5f7
             ],
             "options": {
                 "cwd": "${fileDirname}"
             },
             "problemMatcher": [
-<<<<<<< HEAD
                 "$gcc"
-=======
-                "$msCompile"
->>>>>>> d59a549ee6a3d4488d86b8f09a155cbb2e8bf5f7
             ],
             "group": {
                 "kind": "build",
