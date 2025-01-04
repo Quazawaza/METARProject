@@ -28,7 +28,7 @@ bool Action(char inputaction)
 
 void Input(char inputfile[105], char outputfile[105])
 {
-
+    cin.ignore();
     cout <<"Prosze wprowadzic nazwe wejsciowego pliku txt z danymi METAR (dlugosc nazwy nie powinna przekraczac 100 znakow)" << endl;
     cin.getline(inputfile,105);
     cout << "Prosze wprowadzic nazwe pliku wyjsciowego txt (nazwa pliku nie powinna przekraczac 100 znakow)" << endl;
