@@ -1,1204 +1,1090 @@
-Lotnisko(ICAO): EPGD
-Czas UTC: 11:00
-Wiatr w kierunku 250 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 8000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 05 stopni celsjusza
-temperatura punktu rosy: 04 stopni celsjusza
-Cisnienie atmosferyczne: 1012hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 10:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 9000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 05 stopni celsjusza
-temperatura punktu rosy: 04 stopni celsjusza
-Cisnienie atmosferyczne: 1012hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 09:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 06 wezlow
-Widzialnosc: 9000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 05 stopni celsjusza
-temperatura punktu rosy: 04 stopni celsjusza
-Cisnienie atmosferyczne: 1012hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 08:00
-Wiatr w kierunku 240 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 8000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 004 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 05 stopni celsjusza
-temperatura punktu rosy: 04 stopni celsjusza
-Cisnienie atmosferyczne: 1012hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 07:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 6000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 003 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 04 stopni celsjusza
-Cisnienie atmosferyczne: 1011hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 06:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 7000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1011hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 05:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 06 wezlow
-zmiana kierunku wiatru miedzy: 170 stopni, a 240 stopni
-Widzialnosc: 8000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: FEW, Podstawa: 007 stop
-   Typ: OVC, Podstawa: 046 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1011hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 04:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 8000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: FEW, Podstawa: 008 stop
-   Typ: OVC, Podstawa: 040 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1011hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 03:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 8000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: FEW, Podstawa: 008 stop
-   Typ: OVC, Podstawa: 045 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1011hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 02:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 05 wezlow
-zmiana kierunku wiatru miedzy: 170 stopni, a 240 stopni
-Widzialnosc: 9000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 045 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1011hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 01:00
-Wiatr w kierunku 210 stopni
-predkosc wiatru: 05 wezlow
-zmiana kierunku wiatru miedzy: 170 stopni, a 250 stopni
-Widzialnosc: 9000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 045 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1011hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 00:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 05 wezlow
-zmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
-Widzialnosc: 8000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 046 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1011hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 23:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 04 wezlow
-Widzialnosc: 7000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 042 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1012hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 22:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 6000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 003 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1012hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 21:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 7000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 004 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1012hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 20:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 005 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 02 stopni celsjusza
-Cisnienie atmosferyczne: 1012hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 19:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 9000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 005 stop
-   Typ: BKN, Podstawa: 043 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 02 stopni celsjusza
-Cisnienie atmosferyczne: 1013hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 18:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 10 wezlow
-Widzialnosc: 7000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 02 stopni celsjusza
-Cisnienie atmosferyczne: 1013hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 17:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 11 wezlow
-Widzialnosc: 7000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 005 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 02 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1013hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 16:00
-Wiatr w kierunku 210 stopni
-predkosc wiatru: 08 wezlow
-zmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
-Widzialnosc: 6000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 005 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 02 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1013hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 15:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 10 wezlow
-zmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
-Widzialnosc: 7000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 02 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1013hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 14:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 10 wezlow
-Widzialnosc: 8000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 02 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1013hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 13:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 09 wezlow
-zmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 12:00
-Wiatr w kierunku 210 stopni
-predkosc wiatru: 10 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 11:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 12 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 10:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 08:00
-Wiatr w kierunku 190 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 07:00
-Wiatr w kierunku 200 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 9000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: FEW, Podstawa: 004 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: -00 stopni celsjusza
-temperatura punktu rosy: -01 stopni celsjusza
-Cisnienie atmosferyczne: 1015hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 06:00
-Wiatr w kierunku 190 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 5000 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 003 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 00 stopni celsjusza
-temperatura punktu rosy: -00 stopni celsjusza
-Cisnienie atmosferyczne: 1016hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 05:00
-Wiatr w kierunku 170 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 3000 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 002 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 00 stopni celsjusza
-temperatura punktu rosy: -00 stopni celsjusza
-Cisnienie atmosferyczne: 1016hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 04:00
-Wiatr w kierunku 170 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 4200 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 002 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 00 stopni celsjusza
-temperatura punktu rosy: -00 stopni celsjusza
-Cisnienie atmosferyczne: 1017hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 03:00
-Wiatr w kierunku 170 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 2400 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 002 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 00 stopni celsjusza
-temperatura punktu rosy: -00 stopni celsjusza
-Cisnienie atmosferyczne: 1017hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 02:00
-Wiatr w kierunku 170 stopni
-predkosc wiatru: 06 wezlow
-Widzialnosc: 3100 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 002 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: -00 stopni celsjusza
-temperatura punktu rosy: -00 stopni celsjusza
-Cisnienie atmosferyczne: 1018hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 01:00
-Wiatr w kierunku 160 stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: 3200 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 002 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: -00 stopni celsjusza
-temperatura punktu rosy: -01 stopni celsjusza
-Cisnienie atmosferyczne: 1019hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 00:00
-Wiatr w kierunku 150 stopni
-predkosc wiatru: 06 wezlow
-Widzialnosc: 3600 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 003 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 00 stopni celsjusza
-temperatura punktu rosy: -00 stopni celsjusza
-Cisnienie atmosferyczne: 1019hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 23:00
-Wiatr w kierunku 150 stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: 4200 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: SCT, Podstawa: 004 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 00 stopni celsjusza
-temperatura punktu rosy: -01 stopni celsjusza
-Cisnienie atmosferyczne: 1020hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 22:00
-Wiatr w kierunku 170 stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: 4600 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 004 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 01 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1021hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 21:00
-Wiatr w kierunku 170 stopni
-predkosc wiatru: 04 wezlow
-Widzialnosc: 4000 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 01 stopni celsjusza
-temperatura punktu rosy: -00 stopni celsjusza
-Cisnienie atmosferyczne: 1022hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 20:00
-Wiatr w kierunku 180 stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: 5000 metrow
-Zjawiska atmosferyczne:  BR
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 01 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1022hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 19:00
-Wiatr w kierunku 200 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 6000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 01 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1023hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 18:00
-Wiatr w kierunku 180 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 7000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 006 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 01 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1023hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 17:00
-Wiatr w kierunku 180 stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: 7000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 007 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 01 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1024hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 16:00
-Wiatr w kierunku 180 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 8000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 008 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 02 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1024hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 15:00
-Wiatr w kierunku 200 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 9000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 008 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 02 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1025hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 14:00
-Wiatr w kierunku VRB stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: 9000 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: SCT, Podstawa: 009 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1025hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 13:00
-Wiatr w kierunku 190 stopni
-predkosc wiatru: 10 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /0 stopni celsjusza
-Cisnienie atmosferyczne: Q102hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 12:00
-Wiatr w kierunku 200 stopni
-predkosc wiatru: 10 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /0 stopni celsjusza
-Cisnienie atmosferyczne: Q102hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 11:00
-Wiatr w kierunku 200 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /0 stopni celsjusza
-Cisnienie atmosferyczne: Q102hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 10:00
-Wiatr w kierunku 200 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /0 stopni celsjusza
-Cisnienie atmosferyczne: Q102hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 09:00
-Wiatr w kierunku 200 stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 08:00
-Wiatr w kierunku 190 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 07:00
-Wiatr w kierunku 210 stopni
-predkosc wiatru: 07 wezlow
-zmiana kierunku wiatru miedzy: 160 stopni, a 240 stopni
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 06:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 05:00
-Wiatr w kierunku 210 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 04:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 03:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 02:00
-Wiatr w kierunku 210 stopni
-predkosc wiatru: 06 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 01:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 05 wezlow
-zmiana kierunku wiatru miedzy: 180 stopni, a 250 stopni
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /0 stopni celsjusza
-Cisnienie atmosferyczne: Q103hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 00:00
-Wiatr w kierunku 210 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /0 stopni celsjusza
-Cisnienie atmosferyczne: Q103hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 23:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 22:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 09 wezlow
-zmiana kierunku wiatru miedzy: 190 stopni, a 250 stopni
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 21:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 20:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 10 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 19:00
-Wiatr w kierunku 200 stopni
-predkosc wiatru: 08 wezlow
-zmiana kierunku wiatru miedzy: 170 stopni, a 240 stopni
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 18:00
-Wiatr w kierunku 210 stopni
-predkosc wiatru: 06 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 17:00
-Wiatr w kierunku 190 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 16:00
-Wiatr w kierunku 190 stopni
-predkosc wiatru: 04 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 15:00
-Wiatr w kierunku 180 stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 14:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: CAVO metrow
-Zachmurzenie: 0xf30ddff6a8
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura:  0 stopni celsjusza
-temperatura punktu rosy: /M stopni celsjusza
-Cisnienie atmosferyczne:  Q10hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 13:00
-Wiatr w kierunku 210 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: FEW, Podstawa: 018 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: -01 stopni celsjusza
-Cisnienie atmosferyczne: 1032hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 12:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 11 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: FEW, Podstawa: 016 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: -01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 11:00
-Wiatr w kierunku 240 stopni
-predkosc wiatru: 12 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 015 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: -00 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 10:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 11 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 014 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: -00 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 09:00
-Wiatr w kierunku 210 stopni
-predkosc wiatru: 10 wezlow
-zmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 011 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: -00 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 08:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 011 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1034hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 07:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 010 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 02 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1034hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 06:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 010 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 00 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 05:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 06 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 011 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 04:00
-Wiatr w kierunku 220 stopni
-predkosc wiatru: 06 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 013 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 03:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 015 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 02:00
-Wiatr w kierunku 230 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 015 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 01:00
-Wiatr w kierunku 250 stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 013 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 00:00
-Wiatr w kierunku 270 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 011 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 23:00
-Wiatr w kierunku 270 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 012 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 22:00
-Wiatr w kierunku 260 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 013 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 21:00
-Wiatr w kierunku 260 stopni
-predkosc wiatru: 07 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 012 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 20:00
-Wiatr w kierunku 270 stopni
-predkosc wiatru: 05 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: OVC, Podstawa: 012 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 19:00
-Wiatr w kierunku 290 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 011 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1033hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 18:00
-Wiatr w kierunku 310 stopni
-predkosc wiatru: 06 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 014 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1032hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 17:00
-Wiatr w kierunku 310 stopni
-predkosc wiatru: 06 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 014 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 02 stopni celsjusza
-Cisnienie atmosferyczne: 1031hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 16:00
-Wiatr w kierunku 310 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: SCT, Podstawa: 020 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 03 stopni celsjusza
-temperatura punktu rosy: 02 stopni celsjusza
-Cisnienie atmosferyczne: 1031hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 15:00
-Wiatr w kierunku 310 stopni
-predkosc wiatru: 11 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: FEW, Podstawa: 008 stop
-   Typ: BKN, Podstawa: 030 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 04 stopni celsjusza
-temperatura punktu rosy: 02 stopni celsjusza
-Cisnienie atmosferyczne: 1031hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 14:00
-Wiatr w kierunku 330 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: FEW, Podstawa: 008 stop
-   Typ: BKN, Podstawa: 030 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 05 stopni celsjusza
-temperatura punktu rosy: 03 stopni celsjusza
-Cisnienie atmosferyczne: 1030hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 13:00
-Wiatr w kierunku 320 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 008 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 05 stopni celsjusza
-temperatura punktu rosy: 04 stopni celsjusza
-Cisnienie atmosferyczne: 1030hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 12:00
-Wiatr w kierunku 340 stopni
-predkosc wiatru: 09 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 007 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 05 stopni celsjusza
-temperatura punktu rosy: 04 stopni celsjusza
-Cisnienie atmosferyczne: 1029hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 11:00
-Wiatr w kierunku 340 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 007 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 06 stopni celsjusza
-temperatura punktu rosy: 05 stopni celsjusza
-Cisnienie atmosferyczne: 1029hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 10:00
-Wiatr w kierunku 360 stopni
-predkosc wiatru: 08 wezlow
-Widzialnosc: 9000 metrow
-Zjawiska atmosferyczne: -RA
-Zachmurzenie: 0xf30ddff6a8
-   Typ: FEW, Podstawa: 007 stop
-   Typ: BKN, Podstawa: 020 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 06 stopni celsjusza
-temperatura punktu rosy: 04 stopni celsjusza
-Cisnienie atmosferyczne: 1028hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 09:00
-Wiatr w kierunku 360 stopni
-predkosc wiatru: 06 wezlow
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 029 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 06 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1028hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 08:00
-Wiatr w kierunku 020 stopni
-predkosc wiatru: 08 wezlow
-zmiana kierunku wiatru miedzy: 360 stopni, a 060 stopni
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 032 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 06 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1027hPa
-
-Lotnisko(ICAO): EPGD
-Czas UTC: 07:00
-Wiatr w kierunku 020 stopni
-predkosc wiatru: 09 wezlow
-zmiana kierunku wiatru miedzy: 340 stopni, a 050 stopni
-Widzialnosc: 9999 metrow
-Zachmurzenie: 0xf30ddff6a8
-   Typ: BKN, Podstawa: 026 stop
-podstawa chmur na wysokosci0xf30ddff6c0 stop
-Temperatura: 06 stopni celsjusza
-temperatura punktu rosy: 01 stopni celsjusza
-Cisnienie atmosferyczne: 1026hPa
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  11:00
+Wiatr w kierunku           240 stopni
+predkosc wiatru:           15 wezlow, w porywach do: 31 wezlow
+Widzialnosc:               8000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 006 stop
+Temperatura:               05 stopni celsjusza
+temperatura pktu rosy:     04 stopni celsjusza
+Cisnienie atmosferyczne:   1012hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  10:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               9000 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 006 stop
+Temperatura:               05 stopni celsjusza
+temperatura pktu rosy:     04 stopni celsjusza
+Cisnienie atmosferyczne:   1012hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  09:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               9000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 006 stop
+Temperatura:               05 stopni celsjusza
+temperatura pktu rosy:     04 stopni celsjusza
+Cisnienie atmosferyczne:   1012hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  08:00
+Wiatr w kierunku           240 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               8000 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 004 stop
+Temperatura:               05 stopni celsjusza
+temperatura pktu rosy:     04 stopni celsjusza
+Cisnienie atmosferyczne:   1012hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  07:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               6000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 003 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     04 stopni celsjusza
+Cisnienie atmosferyczne:   1011hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  06:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               7000 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 006 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1011hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  05:00
+Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 170 stopni, a 240 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               8000 metrow
+Zachmurzenie:
+   Typ:                    FEW, Podstawa: 007 stop
+   Typ:                    OVC, Podstawa: 046 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1011hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  04:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               8000 metrow
+Zachmurzenie:
+   Typ:                    FEW, Podstawa: 008 stop
+   Typ:                    OVC, Podstawa: 040 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1011hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  03:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               8000 metrow
+Zachmurzenie:
+   Typ:                    FEW, Podstawa: 008 stop
+   Typ:                    OVC, Podstawa: 045 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1011hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  02:00
+Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 170 stopni, a 240 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               9000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 045 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1011hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  01:00
+Wiatr w kierunku           210 stopnizmiana kierunku wiatru miedzy: 170 stopni, a 250 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               9000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 045 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1011hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  00:00
+Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               8000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 046 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1011hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  23:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           04 wezlow
+Widzialnosc:               7000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 042 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1012hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  22:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               6000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 003 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1012hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  21:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               7000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 004 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1012hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  20:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 005 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     02 stopni celsjusza
+Cisnienie atmosferyczne:   1012hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  19:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               9000 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 005 stop
+   Typ:                    BKN, Podstawa: 043 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     02 stopni celsjusza
+Cisnienie atmosferyczne:   1013hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  18:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           10 wezlow
+Widzialnosc:               7000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 006 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     02 stopni celsjusza
+Cisnienie atmosferyczne:   1013hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  17:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           11 wezlow
+Widzialnosc:               7000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 005 stop
+Temperatura:               02 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1013hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  16:00
+Wiatr w kierunku           210 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               6000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 005 stop
+Temperatura:               02 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1013hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  15:00
+Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
+predkosc wiatru:           10 wezlow
+Widzialnosc:               7000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 006 stop
+Temperatura:               02 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1013hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  14:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           10 wezlow
+Widzialnosc:               8000 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 006 stop
+Temperatura:               02 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1013hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  13:00
+Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  12:00
+Wiatr w kierunku           210 stopni
+predkosc wiatru:           10 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  11:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           12 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  10:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  08:00
+Wiatr w kierunku           190 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  07:00
+Wiatr w kierunku           200 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               9000 metrow
+Zachmurzenie:
+   Typ:                    FEW, Podstawa: 004 stop
+Temperatura:               -00 stopni celsjusza
+temperatura pktu rosy:     -01 stopni celsjusza
+Cisnienie atmosferyczne:   1015hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  06:00
+Wiatr w kierunku           190 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               5000 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 003 stop
+Temperatura:               00 stopni celsjusza
+temperatura pktu rosy:     -00 stopni celsjusza
+Cisnienie atmosferyczne:   1016hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  05:00
+Wiatr w kierunku           170 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               3000 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 002 stop
+Temperatura:               00 stopni celsjusza
+temperatura pktu rosy:     -00 stopni celsjusza
+Cisnienie atmosferyczne:   1016hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  04:00
+Wiatr w kierunku           170 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               4200 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 002 stop
+Temperatura:               00 stopni celsjusza
+temperatura pktu rosy:     -00 stopni celsjusza
+Cisnienie atmosferyczne:   1017hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  03:00
+Wiatr w kierunku           170 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               2400 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 002 stop
+Temperatura:               00 stopni celsjusza
+temperatura pktu rosy:     -00 stopni celsjusza
+Cisnienie atmosferyczne:   1017hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  02:00
+Wiatr w kierunku           170 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               3100 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 002 stop
+Temperatura:               -00 stopni celsjusza
+temperatura pktu rosy:     -00 stopni celsjusza
+Cisnienie atmosferyczne:   1018hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  01:00
+Wiatr w kierunku           160 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               3200 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 002 stop
+Temperatura:               -00 stopni celsjusza
+temperatura pktu rosy:     -01 stopni celsjusza
+Cisnienie atmosferyczne:   1019hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  00:00
+Wiatr w kierunku           150 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               3600 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 003 stop
+Temperatura:               00 stopni celsjusza
+temperatura pktu rosy:     -00 stopni celsjusza
+Cisnienie atmosferyczne:   1019hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  23:00
+Wiatr w kierunku           150 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               4200 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    SCT, Podstawa: 004 stop
+Temperatura:               00 stopni celsjusza
+temperatura pktu rosy:     -01 stopni celsjusza
+Cisnienie atmosferyczne:   1020hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  22:00
+Wiatr w kierunku           170 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               4600 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 004 stop
+Temperatura:               01 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1021hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  21:00
+Wiatr w kierunku           170 stopni
+predkosc wiatru:           04 wezlow
+Widzialnosc:               4000 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 006 stop
+Temperatura:               01 stopni celsjusza
+temperatura pktu rosy:     -00 stopni celsjusza
+Cisnienie atmosferyczne:   1022hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  20:00
+Wiatr w kierunku           180 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               5000 metrow
+Zjawiska atmosferyczne:     BR
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 006 stop
+Temperatura:               01 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1022hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  19:00
+Wiatr w kierunku           200 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               6000 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 006 stop
+Temperatura:               01 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1023hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  18:00
+Wiatr w kierunku           180 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               7000 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 006 stop
+Temperatura:               01 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1023hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  17:00
+Wiatr w kierunku           180 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               7000 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 007 stop
+Temperatura:               01 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1024hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  16:00
+Wiatr w kierunku           180 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               8000 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 008 stop
+Temperatura:               02 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1024hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  15:00
+Wiatr w kierunku           200 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               9000 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 008 stop
+Temperatura:               02 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1025hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  14:00
+Wiatr w kierunku           VRB stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               9000 metrow
+Zachmurzenie:
+   Typ:                    SCT, Podstawa: 009 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1025hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  13:00
+Wiatr w kierunku           190 stopni
+predkosc wiatru:           10 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /0 stopni celsjusza
+Cisnienie atmosferyczne:   Q102hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  12:00
+Wiatr w kierunku           200 stopni
+predkosc wiatru:           10 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /0 stopni celsjusza
+Cisnienie atmosferyczne:   Q102hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  11:00
+Wiatr w kierunku           200 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /0 stopni celsjusza
+Cisnienie atmosferyczne:   Q102hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  10:00
+Wiatr w kierunku           200 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /0 stopni celsjusza
+Cisnienie atmosferyczne:   Q102hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  09:00
+Wiatr w kierunku           200 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  08:00
+Wiatr w kierunku           190 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  07:00
+Wiatr w kierunku           210 stopnizmiana kierunku wiatru miedzy: 160 stopni, a 240 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  06:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  05:00
+Wiatr w kierunku           210 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  04:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  03:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  02:00
+Wiatr w kierunku           210 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  01:00
+Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 250 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /0 stopni celsjusza
+Cisnienie atmosferyczne:   Q103hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  00:00
+Wiatr w kierunku           210 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /0 stopni celsjusza
+Cisnienie atmosferyczne:   Q103hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  23:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  22:00
+Wiatr w kierunku           230 stopnizmiana kierunku wiatru miedzy: 190 stopni, a 250 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  21:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  20:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           10 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  19:00
+Wiatr w kierunku           200 stopnizmiana kierunku wiatru miedzy: 170 stopni, a 240 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  18:00
+Wiatr w kierunku           210 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  17:00
+Wiatr w kierunku           190 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  16:00
+Wiatr w kierunku           190 stopni
+predkosc wiatru:           04 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  15:00
+Wiatr w kierunku           180 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  14:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               CAVO metrow
+Zachmurzenie:
+Temperatura:                0 stopni celsjusza
+temperatura pktu rosy:     /M stopni celsjusza
+Cisnienie atmosferyczne:    Q10hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  13:00
+Wiatr w kierunku           210 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    FEW, Podstawa: 018 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     -01 stopni celsjusza
+Cisnienie atmosferyczne:   1032hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  12:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           11 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    FEW, Podstawa: 016 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     -01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  11:00
+Wiatr w kierunku           240 stopni
+predkosc wiatru:           12 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 015 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     -00 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  10:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           11 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 014 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     -00 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  09:00
+Wiatr w kierunku           210 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
+predkosc wiatru:           10 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 011 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     -00 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  08:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 011 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1034hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  07:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 010 stop
+Temperatura:               02 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1034hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  06:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 010 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     00 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  05:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 011 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  04:00
+Wiatr w kierunku           220 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 013 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  03:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 015 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  02:00
+Wiatr w kierunku           230 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 015 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  01:00
+Wiatr w kierunku           250 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 013 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  00:00
+Wiatr w kierunku           270 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 011 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  23:00
+Wiatr w kierunku           270 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 012 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  22:00
+Wiatr w kierunku           260 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 013 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  21:00
+Wiatr w kierunku           260 stopni
+predkosc wiatru:           07 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 012 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  20:00
+Wiatr w kierunku           270 stopni
+predkosc wiatru:           05 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    OVC, Podstawa: 012 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  19:00
+Wiatr w kierunku           290 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 011 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1033hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  18:00
+Wiatr w kierunku           310 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 014 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1032hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  17:00
+Wiatr w kierunku           310 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 014 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     02 stopni celsjusza
+Cisnienie atmosferyczne:   1031hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  16:00
+Wiatr w kierunku           310 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    SCT, Podstawa: 020 stop
+Temperatura:               03 stopni celsjusza
+temperatura pktu rosy:     02 stopni celsjusza
+Cisnienie atmosferyczne:   1031hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  15:00
+Wiatr w kierunku           310 stopni
+predkosc wiatru:           11 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    FEW, Podstawa: 008 stop
+   Typ:                    BKN, Podstawa: 030 stop
+Temperatura:               04 stopni celsjusza
+temperatura pktu rosy:     02 stopni celsjusza
+Cisnienie atmosferyczne:   1031hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  14:00
+Wiatr w kierunku           330 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    FEW, Podstawa: 008 stop
+   Typ:                    BKN, Podstawa: 030 stop
+Temperatura:               05 stopni celsjusza
+temperatura pktu rosy:     03 stopni celsjusza
+Cisnienie atmosferyczne:   1030hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  13:00
+Wiatr w kierunku           320 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 008 stop
+Temperatura:               05 stopni celsjusza
+temperatura pktu rosy:     04 stopni celsjusza
+Cisnienie atmosferyczne:   1030hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  12:00
+Wiatr w kierunku           340 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 007 stop
+Temperatura:               05 stopni celsjusza
+temperatura pktu rosy:     04 stopni celsjusza
+Cisnienie atmosferyczne:   1029hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  11:00
+Wiatr w kierunku           340 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 007 stop
+Temperatura:               06 stopni celsjusza
+temperatura pktu rosy:     05 stopni celsjusza
+Cisnienie atmosferyczne:   1029hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  10:00
+Wiatr w kierunku           360 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               9000 metrow
+Zjawiska atmosferyczne:    -RA
+Zachmurzenie:
+   Typ:                    FEW, Podstawa: 007 stop
+   Typ:                    BKN, Podstawa: 020 stop
+Temperatura:               06 stopni celsjusza
+temperatura pktu rosy:     04 stopni celsjusza
+Cisnienie atmosferyczne:   1028hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  09:00
+Wiatr w kierunku           360 stopni
+predkosc wiatru:           06 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 029 stop
+Temperatura:               06 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1028hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  08:00
+Wiatr w kierunku           020 stopnizmiana kierunku wiatru miedzy: 360 stopni, a 060 stopni
+predkosc wiatru:           08 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 032 stop
+Temperatura:               06 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1027hPa
+
+Lotnisko(ICAO):            EPGD
+Czas UTC:                  07:00
+Wiatr w kierunku           020 stopnizmiana kierunku wiatru miedzy: 340 stopni, a 050 stopni
+predkosc wiatru:           09 wezlow
+Widzialnosc:               9999 metrow
+Zachmurzenie:
+   Typ:                    BKN, Podstawa: 026 stop
+Temperatura:               06 stopni celsjusza
+temperatura pktu rosy:     01 stopni celsjusza
+Cisnienie atmosferyczne:   1026hPa
 
