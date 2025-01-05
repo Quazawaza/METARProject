@@ -12,7 +12,7 @@ struct METARdata
     char WindSpd[3] = {'\0'};
     char WindGst[3] = {'\0'};
     char WindDirCh[8] = {'\0'};
-    char Visblty[5] = {'\0'};
+    char Visblty[6] = {'\0'};
     char Wthrphnmstrngh = {'\0'};
     char Wthrphnm[3] = {'\0'};
     char Clouds[6][4] = {'\0'};
@@ -120,11 +120,17 @@ void WindDirectionChange(const char* line, int& index, METARdata& data)
 }
 void Visiblity(const char* line, int& index, METARdata& data)
 {
+    int visibilityindex = 0;
+    if (line[index] == 'C')
+    {
+        data.Visblty[visibilityindex++] = 'C';
+        index++;
+    }
     for (int i = 0; i < 4; i++)
     {
-        data.Visblty[i] = line[index++];
+        data.Visblty[visibilityindex++] = line[index++];
     }
-    data.Visblty[4] = '\0';
+    data.Visblty[visibilityindex++] = '\0';
     index++;
 }
 void WeatherPhenomena(const char* line, int& index, METARdata& data)
@@ -209,7 +215,8 @@ void AtmosphericPressure(const char* line, int& index, METARdata& data)
 
 void DisplayData(const METARdata& data)
 {
-    cout << "Lotnisko(ICAO):            " << data.ICAO << endl; 
+    cout << "Lotnisko(ICAO):            " << data.ICAO << endl;
+    cout << "Dzien miesiaca:            " << data.Day << endl;
     cout << "Czas UTC:                  " << data.UTCtime[0] << data.UTCtime[1] << ":" << data.UTCtime[2] << data.UTCtime[3] << endl;
     cout << "Wiatr w kierunku           " << data.WindDir << " stopni";
     if (data.WindDirCh[0] != '\0')
@@ -252,6 +259,7 @@ void DisplayData(const METARdata& data)
 void SaveToFile(ofstream& outfile, METARdata& data)
 {
     outfile << "Lotnisko(ICAO):            " << data.ICAO << endl;
+    outfile << "Dzień miesiąca:            " << data.Day << endl;
     outfile << "Czas UTC:                  " << data.UTCtime[0] << data.UTCtime[1] << ":" << data.UTCtime[2] << data.UTCtime[3] << endl;
     outfile << "Wiatr w kierunku           " << data.WindDir << " stopni";
     if (data.WindDirCh[0] != '\0')
@@ -289,9 +297,23 @@ void SaveToFile(ofstream& outfile, METARdata& data)
     outfile << "Cisnienie atmosferyczne:   " << data.atmprs << "hPa" << endl << endl;
 }
 
+void LastThreeMeasurments(METARdata lastmsrmnts[3], int counter)
+{
+    int quantity = 3;
+    if (counter < 3) {
+        quantity = counter;
+    }
+
+    for (int i = quantity - 1; i >= 0; i--) 
+    {
+        int index = (counter - 1 - i) % 3;
+        DisplayData(lastmsrmnts[index]);
+    }
+    
+}
+
 void ParseMETAR(const char* line, METARdata& data, ofstream& outfile)
 {
-
     int index = 0;
 
     ICAOCode(line, index, data);
@@ -317,11 +339,15 @@ void ParseMETAR(const char* line, METARdata& data, ofstream& outfile)
     dewTemperature(line, index, data);
     AtmosphericPressure(line, index, data);
 
-    DisplayData(data);
     SaveToFile(outfile, data);
 }
 
-void FileConversion(const char inputfile[105], const char outputfile[105]) {
+void FileConversion(const char inputfile[105], const char outputfile[105]) 
+{
+
+    METARdata lastmsrmnts[3];
+    int counter = 0;
+
     ifstream infile(inputfile);
     ofstream outfile(outputfile);
 
@@ -336,10 +362,16 @@ void FileConversion(const char inputfile[105], const char outputfile[105]) {
     {
         METARdata Metar = {};
         ParseMETAR(line,Metar ,outfile);
+        lastmsrmnts[counter % 3] = Metar;
+        counter++;
     }
+
+    LastThreeMeasurments(lastmsrmnts, counter);
 
     infile.close();
     outfile.close();
+
+    cout << "Program zakonczyl dzialanie" << endl;
 
 }
 int main() {
