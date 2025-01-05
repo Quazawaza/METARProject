@@ -3,6 +3,25 @@
 
 using namespace std;
 
+struct METARdata
+{
+    char ICAO[5] = {'\0'};
+    char Day[3] = {'\0'};
+    char UTCtime[5] = {'\0'};
+    char WindDir[4] = {'\0'};
+    char WindSpd[3] = {'\0'};
+    char WindGst[3] = {'\0'};
+    char WindDirCh[8] = {'\0'};
+    char Visblty[5] = {'\0'};
+    char Wthrphnmstrngh = {'\0'};
+    char Wthrphnm[3] = {'\0'};
+    char Clouds[4] = {'\0'};
+    char Cldhght[4] = {'\0'};
+    char tmp[3] = {'\0'};
+    char dewtmp[3] = {'\0'};
+    char atmprs[5] = {'\0'};
+};
+
 void Starter(char &inputaction)
 {
     cout << "Tomasz Ciurkowski 203191" << endl;
@@ -34,199 +53,230 @@ void Input(char inputfile[105], char outputfile[105])
     cin.getline(outputfile, 105);
 }
 
-void ParseMETAR(const char* line, ofstream& outfile)
+void ICAOCode(const char* line, int& index, METARdata& data)
 {
-    char ICAO[5] = "";
-    char Day[3] = "";
-    char UTCtime[5] = "";
-    char WindDir[4] = "";
-    char WindSpd[3] = "";
-    char WindGst[3] = "";
-    char WindDirCh[8] = "";
-    char Visblty[5] = "";
-    char Wthrphnmstrngh = 0;
-    char Wthrphnm[3] = "";
-    char Clouds[4] = "";
-    char Cldhght[4] = "";
-    char tmp[3] = "";
-    char dewtmp[3] = "";
-    char atmprs[5] = "";
+    for (int i = 0; i < 4; i++)
+    {
+        data.ICAO[i] = line[index++];
+    }
+    data.ICAO[4] = '\0';
+    index++;
+}
+
+void DayNumber(const char* line, int& index, METARdata& data)
+{
+    for (int i = 0; i < 2; i++)
+    {
+        data.Day[i] = line[index++];
+    }
+    data.Day[2] = '\0';
+}
+
+void UTC(const char* line, int& index, METARdata& data)
+{
+    for (int i = 0; i < 4; i++)
+    {
+        data.UTCtime[i] = line[index++];
+    }
+    data.UTCtime[4] = '\0';
+    index+=2;
+}
+
+void WindDirecton(const char* line, int& index, METARdata& data)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        data.WindDir[i] = line[index++];
+    }
+    data.WindDir[3] = '\0';
+}
+
+void WindSpeed(const char* line, int& index, METARdata& data)
+{
+    for (int i = 0; i < 2; i++)
+    {
+        data.WindSpd[i] = line[index++];
+    }
+    data.WindSpd[2] = '\0';
+}
+void WindGust(const char* line, int& index, METARdata& data)
+{
+    index++;
+    for (int i = 0; i < 2; i++)
+    {
+        data.WindGst[i] = line[index++];
+    }
+    data.WindGst[2] = '\0';
+}
+void WindDirectionChange(const char* line, int& index, METARdata& data)
+{
+    for (int i = 0; i < 7; i++)
+    {
+        data.WindDirCh[i] = line[index++];
+    }
+    data.WindDirCh[7] = '\0';
+    index++;
+}
+void Visiblity(const char* line, int& index, METARdata& data)
+{
+    for (int i = 0; i < 4; i++)
+    {
+        data.Visblty[i] = line[index++];
+    }
+    data.Visblty[4] = '\0';
+    index++;
+}
+void WeatherPhenomena(const char* line, int& index, METARdata& data)
+{
+    if (line[index] == '+' || line[index] == '-')
+    {
+        data.Wthrphnmstrngh = line[index++];
+    }
+
+    if (line[index + 2] == ' ')
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            data.Wthrphnm[i] = line[index++];
+        }
+        data.Wthrphnm[2] = '\0';
+        index++;
+    }
+}
+void Temperature(const char* line, int& index, METARdata& data)
+{
+    for (int i = 0; i < 2; i++)
+    {
+        data.tmp[i] = line[index++];
+    }
+    data.tmp[2] = '\0';
+    index++;
+}
+void dewTemperature(const char* line, int& index, METARdata& data)
+{
+    for (int i = 0; i < 2; i++)
+    {
+        data.dewtmp[i] = line[index++];
+    }
+    data.dewtmp[2] = '\0';
+    index+=2;
+}
+void AtmosphericPressure(const char* line, int& index, METARdata& data)
+{
+    for (int i = 0; i < 4; i++)
+    {
+        data.atmprs[i] = line[index++];
+    }
+    data.atmprs[4] = '\0';
+}
+
+void DisplayData(const METARdata& data)
+{
+    cout << "Lotnisko(ICAO): " << data.ICAO << endl; 
+    cout << "Czas UTC: " << data.UTCtime[0] << data.UTCtime[1] << ":" << data.UTCtime[2] << data.UTCtime[3] << endl;
+    cout << "Wiatr w kierunku " << data.WindDir << " stopni" << endl;
+    cout <<  "predkosc wiatru: " << data.WindSpd  << " wezlow" << endl;
+
+    if (data.WindGst[0] != '\0')
+    {
+        cout << " w porywach do: " << data.WindGst << "wezlow" << endl;
+    }
+
+    if (data.WindDirCh[0] != '\0')
+    {
+        cout << "zmiana kierunku wiatru miedzy: " << data.WindDirCh[0] << data.WindDirCh[1] << data.WindDirCh[2] << " stopni, a " << data.WindDirCh[4] << data.WindDirCh[5] << data.WindDirCh[6] << " stopni" << endl;
+    }
+    
+    cout << "Widzialnosc: " << data.Visblty << " metrow" << endl;
+
+    if (data.Wthrphnm[0] != '\0')
+    {
+        cout << "Zjawiska atmosferyczne: " << data.Wthrphnmstrngh << data.Wthrphnm << endl;
+    }
+    cout << "Zachmurzenie: " << data.Clouds << endl;
+    cout << "podstawa chmur na wysokosci" << data.Cldhght << " stop" << endl;
+    cout << "Temperatura: " << data.tmp << " stopni celsjusza"<< endl; 
+    cout <<  "temperatura punktu rosy: " << data.dewtmp << " stopni celsjusza" << endl;
+    cout << "Cisnienie atmosferyczne: " << data.atmprs << "hPa" << endl << endl;
+}
+
+void SaveToFile(ofstream& outfile, METARdata& data)
+{
+    outfile << "Lotnisko(ICAO): " << data.ICAO << endl; 
+    outfile << "Czas UTC: " << data.UTCtime[0] << data.UTCtime[1] << ":" << data.UTCtime[2] << data.UTCtime[3] << endl;
+    outfile << "Wiatr w kierunku " << data.WindDir << " stopni" << endl;
+    outfile <<  "predkosc wiatru: " << data.WindSpd  << " wezlow" << endl;
+
+    if (data.WindGst[0] != '\0')
+    {
+        outfile << " w porywach do: " << data.WindGst << "wezlow" << endl;
+    }
+
+    if (data.WindDirCh[0] != '\0')
+    {
+        outfile << "zmiana kierunku wiatru miedzy: " << data.WindDirCh[0] << data.WindDirCh[1] << data.WindDirCh[2] << " stopni, a " << data.WindDirCh[4] << data.WindDirCh[5] << data.WindDirCh[6] << " stopni" << endl;
+    }
+    
+    outfile << "Widzialnosc: " << data.Visblty << " metrow" << endl;
+
+    if (data.Wthrphnm[0] != '\0')
+    {
+        outfile << "Zjawiska atmosferyczne: " << data.Wthrphnmstrngh << data.Wthrphnm << endl;
+    }
+    outfile << "Zachmurzenie: " << data.Clouds << endl;
+    outfile << "podstawa chmur na wysokosci" << data.Cldhght << " stop" << endl;
+    outfile << "Temperatura: " << data.tmp << " stopni celsjusza"<< endl; 
+    outfile <<  "temperatura punktu rosy: " << data.dewtmp << " stopni celsjusza" << endl;
+    outfile << "Cisnienie atmosferyczne: " << data.atmprs << "hPa" << endl << endl;
+}
+
+void ParseMETAR(const char* line, METARdata& data, ofstream& outfile)
+{
 
     int index = 0;
 
-    for (int i = 0; i < 4; i++)
-    {
-        ICAO[i] = line[index++];
-    }
-    
-    ICAO[4] = '\0';
-    index++;
-
-    for (int i = 0; i < 2; i++)
-    {
-        Day[i] = line[index++];
-    }
-    Day[2] = '\0';
-    for (int i = 0; i < 4; i++)
-    {
-        UTCtime[i] = line[index++];
-    }
-    UTCtime[4] = '\0';
-
-    index+=2;
-
-    for (int i = 0; i < 3; i++)
-    {
-        WindDir[i] = line[index++];
-    }
-    WindDir[3] = '\0';
-    for (int i = 0; i < 2; i++)
-    {
-        WindSpd[i] = line[index++];
-    }
-    WindSpd[2] = '\0';
-
+    ICAOCode(line, index, data);
+    DayNumber(line, index, data);
+    UTC(line, index, data);
+    WindDirecton(line, index, data);
+    WindSpeed(line, index, data);
     if (line[index] == 'G')
     {
-        index++;
-        for (int i = 0; i < 2; i++)
-        {
-            WindGst[i] = line[index++];
-        }
-        WindGst[2] = '\0';
+        WindGust(line, index, data);
     }
     index+=3;
 
     if (line[index+3] == 'V')
     {
-        for (int i = 0; i < 7; i++)
-        {
-            WindDirCh[i] = line[index++];
-        }
-        index++;
-    }
-    
-
-    for (int i = 0; i < 4; i++)
-    {
-        Visblty[i] = line[index++];
-    }
-    Visblty[4] = '\0';
-
-    index++;
-
-    if (line[index] == '+' || line[index] == '-')
-    {
-        Wthrphnmstrngh = line[index++];
+        WindDirectionChange(line, index, data);
     }
 
-    if (line[index+2] == ' ')
-    {
-        for (int i = 0; i < 2; i++)
-        {
-            Wthrphnm[i] = line[index++];
-        }
-        Wthrphnm[2] = '\0';
-        index++;
-    }
+    Visiblity(line, index, data);
+    WeatherPhenomena(line, index, data);
 
     if (line[index+2] != '/')
     {
-        
-        for (int i = 0; i < 3; i++)
-        {
-            Clouds[i] = line[index++];
-        }
-        Clouds[3] = '\0';
 
         for (int i = 0; i < 3; i++)
         {
-            Cldhght[i] = line[index++];
+            data.Clouds[i] = line[index++];
         }
-        Cldhght[3] = '\0';
+        data.Clouds[3] = '\0';
+
+        for (int i = 0; i < 3; i++)
+        {
+            data.Cldhght[i] = line[index++];
+        }
+        data.Cldhght[3] = '\0';
 
         index++;        
     }
+    Temperature(line, index, data);
+    dewTemperature(line, index, data);
+    AtmosphericPressure(line, index, data);
 
-    for (int i = 0; i < 2; i++)
-    {
-        tmp[i] = line[index++];
-    }
-    tmp[2] = '\0';
-
-    index++;
-
-    for (int i = 0; i < 2; i++)
-    {
-        dewtmp[i] = line[index++];
-    }
-    dewtmp[2] = '\0';
-
-    index+=2;
-
-    for (int i = 0; i < 4; i++)
-    {
-        atmprs[i] = line[index++];
-    }
-    atmprs[4] = '\0';
-
-    cout << "Lotnisko(ICAO): " << ICAO << endl; 
-    cout << "Czas UTC: " << UTCtime[0] << UTCtime[1] << ":" << UTCtime[2] << UTCtime[3] << endl;
-    cout << "Wiatr w kierunku " << WindDir << " stopni" << endl;
-    cout <<  "predkosc wiatru: " << WindSpd  << " wezlow" << endl;
-
-    if (WindGst[0] != '\0')
-    {
-        cout << " w porywach do: " << WindGst << "wezlow" << endl;
-    }
-
-    if (WindDirCh[0] != '\0')
-    {
-        cout << "zmiana kierunku wiatru miedzy: " << WindDirCh[0] << WindDirCh[1] << WindDirCh[2] << " stopni, a " << WindDirCh[4] << WindDirCh[5] << WindDirCh[6] << " stopni" << endl;
-    }
-    
-    cout << "Widzialnosc: " << Visblty << " metrow" << endl;
-
-    if (Wthrphnm[0] != '\0')
-    {
-        cout << "Zjawiska atmosferyczne: " << Wthrphnmstrngh << Wthrphnm << endl;
-    }
-    cout << "Zachmurzenie: " << Clouds << endl;
-    cout << "podstawa chmur na wysokosci" << Cldhght << " stop" << endl;
-    cout << "Temperatura: " << tmp << " stopni celsjusza"<< endl; 
-    cout <<  "temperatura punktu rosy: " << dewtmp << " stopni celsjusza" << endl;
-    cout << "Cisnienie atmosferyczne: " << atmprs << "hPa" << endl << endl;
-
-
-
-    outfile << "Lotnisko(ICAO): " << ICAO << endl; 
-    outfile << "Czas UTC: " << UTCtime[0] << UTCtime[1] << ":" << UTCtime[2] << UTCtime[3] << endl;
-    outfile << "Wiatr w kierunku " << WindDir << " stopni" << endl;
-    outfile <<  "predkosc wiatru: " << WindSpd  << " wezlow" << endl;
-
-    if (WindGst[0] != '\0')
-    {
-        outfile << " w porywach do: " << WindGst << "wezlow" << endl;
-    }
-
-    if (WindDirCh[0] != '\0')
-    {
-        outfile << "zmiana kierunku wiatru miedzy: " << WindDirCh[0] << WindDirCh[1] << WindDirCh[2] << " stopni, a " << WindDirCh[4] << WindDirCh[5] << WindDirCh[6] << " stopni" << endl;
-    }
-    
-    outfile << "Widzialnosc: " << Visblty << " metrow" << endl;
-
-    if (Wthrphnm[0] != '\0')
-    {
-        outfile << "Zjawiska atmosferyczne: " << Wthrphnmstrngh << Wthrphnm << endl;
-    }
-    outfile << "Zachmurzenie: " << Clouds << endl;
-    outfile << "podstawa chmur na wysokosci" << Cldhght << " stop" << endl;
-    outfile << "Temperatura: " << tmp << " stopni celsjusza"<< endl; 
-    outfile <<  "temperatura punktu rosy: " << dewtmp << " stopni celsjusza" << endl;
-    outfile << "Cisnienie atmosferyczne: " << atmprs << "hPa" << endl << endl;
-
-
+    DisplayData(data);
+    SaveToFile(outfile, data);
 }
 
 void FileConversion(const char inputfile[105], const char outputfile[105]) {
@@ -242,7 +292,8 @@ void FileConversion(const char inputfile[105], const char outputfile[105]) {
     char line[128];
     while (infile.getline(line, 128)) 
     {
-        ParseMETAR(line, outfile);
+        METARdata Metar = {};
+        ParseMETAR(line,Metar ,outfile);
     }
 
     infile.close();
