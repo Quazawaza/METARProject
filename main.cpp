@@ -15,10 +15,11 @@ struct METARdata
     char Visblty[5] = {'\0'};
     char Wthrphnmstrngh = {'\0'};
     char Wthrphnm[3] = {'\0'};
-    char Clouds[4] = {'\0'};
-    char Cldhght[4] = {'\0'};
-    char tmp[3] = {'\0'};
-    char dewtmp[3] = {'\0'};
+    char Clouds[6][4] = {'\0'};
+    char Cldhght[6][4] = {'\0'};
+    int Cloudcount = 0;
+    char tmp[4] = {'\0'};
+    char dewtmp[4] = {'\0'};
     char atmprs[5] = {'\0'};
 };
 
@@ -143,22 +144,58 @@ void WeatherPhenomena(const char* line, int& index, METARdata& data)
         index++;
     }
 }
+
+void CloudsInfo(const char* line, int& index, METARdata& data)
+{
+    data.Cloudcount = 0;
+
+    while (line[index] != '\0' && line[index+2] != '/' && line[index+3] != '/' && data.Cloudcount < 6)
+    {
+        for (int i = 0; i < 3; i++) {
+            data.Clouds[data.Cloudcount][i] = line[index++];
+        }
+        data.Clouds[data.Cloudcount][3] = '\0';
+        for (int i = 0; i < 3; i++) {
+            data.Cldhght[data.Cloudcount][i] = line[index++];
+        }
+        data.Cldhght[data.Cloudcount][3] = '\0';
+        data.Cloudcount++;
+        index++;
+    }
+    
+
+}
 void Temperature(const char* line, int& index, METARdata& data)
 {
-    for (int i = 0; i < 2; i++)
+    int i = 0;
+    if (line[index] == 'M')
     {
-        data.tmp[i] = line[index++];
+        data.tmp[i++] = '-';
+        index++;
     }
-    data.tmp[2] = '\0';
+    
+    for (int j = 0; j < 2; j++) 
+    {
+        data.tmp[i++] = line[index++];
+    }
+    data.tmp[i] = '\0';
     index++;
 }
 void dewTemperature(const char* line, int& index, METARdata& data)
 {
-    for (int i = 0; i < 2; i++)
+    int i = 0;
+    if (line[index] == 'M')
     {
-        data.dewtmp[i] = line[index++];
+        data.dewtmp[i++] = '-';
+        index++;
     }
-    data.dewtmp[2] = '\0';
+    
+    
+    for (int j = 0; j < 2; j++) 
+    {
+        data.dewtmp[i++] = line[index++];
+    }
+    data.dewtmp[i] = '\0';
     index+=2;
 }
 void AtmosphericPressure(const char* line, int& index, METARdata& data)
@@ -193,8 +230,11 @@ void DisplayData(const METARdata& data)
     {
         cout << "Zjawiska atmosferyczne: " << data.Wthrphnmstrngh << data.Wthrphnm << endl;
     }
-    cout << "Zachmurzenie: " << data.Clouds << endl;
-    cout << "podstawa chmur na wysokosci" << data.Cldhght << " stop" << endl;
+    cout << "Zachmurzenie:" << endl;
+    for (int i = 0; i < data.Cloudcount; i++) {
+        cout << "   Typ: " << data.Clouds[i] 
+             << ", Podstawa: " << data.Cldhght[i] << " stop" << endl;
+    }
     cout << "Temperatura: " << data.tmp << " stopni celsjusza"<< endl; 
     cout <<  "temperatura punktu rosy: " << data.dewtmp << " stopni celsjusza" << endl;
     cout << "Cisnienie atmosferyczne: " << data.atmprs << "hPa" << endl << endl;
@@ -224,6 +264,10 @@ void SaveToFile(ofstream& outfile, METARdata& data)
         outfile << "Zjawiska atmosferyczne: " << data.Wthrphnmstrngh << data.Wthrphnm << endl;
     }
     outfile << "Zachmurzenie: " << data.Clouds << endl;
+    for (int i = 0; i < data.Cloudcount; i++) {
+        outfile << "   Typ: " << data.Clouds[i] 
+             << ", Podstawa: " << data.Cldhght[i] << " stop" << endl;
+    }
     outfile << "podstawa chmur na wysokosci" << data.Cldhght << " stop" << endl;
     outfile << "Temperatura: " << data.tmp << " stopni celsjusza"<< endl; 
     outfile <<  "temperatura punktu rosy: " << data.dewtmp << " stopni celsjusza" << endl;
@@ -253,24 +297,7 @@ void ParseMETAR(const char* line, METARdata& data, ofstream& outfile)
 
     Visiblity(line, index, data);
     WeatherPhenomena(line, index, data);
-
-    if (line[index+2] != '/')
-    {
-
-        for (int i = 0; i < 3; i++)
-        {
-            data.Clouds[i] = line[index++];
-        }
-        data.Clouds[3] = '\0';
-
-        for (int i = 0; i < 3; i++)
-        {
-            data.Cldhght[i] = line[index++];
-        }
-        data.Cldhght[3] = '\0';
-
-        index++;        
-    }
+    CloudsInfo(line, index, data);
     Temperature(line, index, data);
     dewTemperature(line, index, data);
     AtmosphericPressure(line, index, data);
