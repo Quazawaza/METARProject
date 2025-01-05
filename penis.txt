@@ -1,1190 +1,1190 @@
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  11:00
-Wiatr w kierunku           240 stopni
-predkosc wiatru:           15 wezlow, w porywach do: 31 wezlow
-Widzialnosc:               8000 metrow
+Wiatr w kierunku           240 °
+predkosc wiatru:           15 kt, w porywach do: 31 kt
+Widzialnosc:               8000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 006 stop
-Temperatura:               05 stopni celsjusza
-temperatura pktu rosy:     04 stopni celsjusza
-Cisnienie atmosferyczne:   1012hPa
+   Typ:                    OVC, Podstawa: 006 ft
+Temperatura:               05 °C
+temperatura pktu rosy:     04 °C
+Cisnienie atmosferyczne:   1012 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  10:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               9000 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           09 kt
+Widzialnosc:               9000 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 006 stop
-Temperatura:               05 stopni celsjusza
-temperatura pktu rosy:     04 stopni celsjusza
-Cisnienie atmosferyczne:   1012hPa
+   Typ:                    BKN, Podstawa: 006 ft
+Temperatura:               05 °C
+temperatura pktu rosy:     04 °C
+Cisnienie atmosferyczne:   1012 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  09:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               9000 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           06 kt
+Widzialnosc:               9000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 006 stop
-Temperatura:               05 stopni celsjusza
-temperatura pktu rosy:     04 stopni celsjusza
-Cisnienie atmosferyczne:   1012hPa
+   Typ:                    OVC, Podstawa: 006 ft
+Temperatura:               05 °C
+temperatura pktu rosy:     04 °C
+Cisnienie atmosferyczne:   1012 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  08:00
-Wiatr w kierunku           240 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               8000 metrow
+Wiatr w kierunku           240 °
+predkosc wiatru:           07 kt
+Widzialnosc:               8000 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 004 stop
-Temperatura:               05 stopni celsjusza
-temperatura pktu rosy:     04 stopni celsjusza
-Cisnienie atmosferyczne:   1012hPa
+   Typ:                    BKN, Podstawa: 004 ft
+Temperatura:               05 °C
+temperatura pktu rosy:     04 °C
+Cisnienie atmosferyczne:   1012 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  07:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               6000 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           07 kt
+Widzialnosc:               6000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 003 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     04 stopni celsjusza
-Cisnienie atmosferyczne:   1011hPa
+   Typ:                    OVC, Podstawa: 003 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     04 °C
+Cisnienie atmosferyczne:   1011 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  06:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               7000 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           08 kt
+Widzialnosc:               7000 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 006 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1011hPa
+   Typ:                    BKN, Podstawa: 006 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1011 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  05:00
-Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 170 stopni, a 240 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               8000 metrow
+Wiatr w kierunku           220 ° zmiana kierunku wiatru miedzy: 170 °, a 240 °
+predkosc wiatru:           06 kt
+Widzialnosc:               8000 m
 Zachmurzenie:
-   Typ:                    FEW, Podstawa: 007 stop
-   Typ:                    OVC, Podstawa: 046 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1011hPa
+   Typ:                    FEW, Podstawa: 007 ft
+   Typ:                    OVC, Podstawa: 046 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1011 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  04:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               8000 metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           09 kt
+Widzialnosc:               8000 m
 Zachmurzenie:
-   Typ:                    FEW, Podstawa: 008 stop
-   Typ:                    OVC, Podstawa: 040 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1011hPa
+   Typ:                    FEW, Podstawa: 008 ft
+   Typ:                    OVC, Podstawa: 040 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1011 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  03:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               8000 metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           09 kt
+Widzialnosc:               8000 m
 Zachmurzenie:
-   Typ:                    FEW, Podstawa: 008 stop
-   Typ:                    OVC, Podstawa: 045 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1011hPa
+   Typ:                    FEW, Podstawa: 008 ft
+   Typ:                    OVC, Podstawa: 045 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1011 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  02:00
-Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 170 stopni, a 240 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               9000 metrow
+Wiatr w kierunku           220 ° zmiana kierunku wiatru miedzy: 170 °, a 240 °
+predkosc wiatru:           05 kt
+Widzialnosc:               9000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 045 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1011hPa
+   Typ:                    OVC, Podstawa: 045 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1011 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  01:00
-Wiatr w kierunku           210 stopnizmiana kierunku wiatru miedzy: 170 stopni, a 250 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               9000 metrow
+Wiatr w kierunku           210 ° zmiana kierunku wiatru miedzy: 170 °, a 250 °
+predkosc wiatru:           05 kt
+Widzialnosc:               9000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 045 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1011hPa
+   Typ:                    OVC, Podstawa: 045 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1011 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            03
 Czas UTC:                  00:00
-Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               8000 metrow
+Wiatr w kierunku           220 ° zmiana kierunku wiatru miedzy: 180 °, a 240 °
+predkosc wiatru:           05 kt
+Widzialnosc:               8000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 046 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1011hPa
+   Typ:                    OVC, Podstawa: 046 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1011 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  23:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           04 wezlow
-Widzialnosc:               7000 metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           04 kt
+Widzialnosc:               7000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 042 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1012hPa
+   Typ:                    OVC, Podstawa: 042 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1012 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  22:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               6000 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           09 kt
+Widzialnosc:               6000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 003 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1012hPa
+   Typ:                    OVC, Podstawa: 003 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1012 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  21:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               7000 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           08 kt
+Widzialnosc:               7000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 004 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1012hPa
+   Typ:                    OVC, Podstawa: 004 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1012 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  20:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           09 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 005 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     02 stopni celsjusza
-Cisnienie atmosferyczne:   1012hPa
+   Typ:                    OVC, Podstawa: 005 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     02 °C
+Cisnienie atmosferyczne:   1012 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  19:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               9000 metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           07 kt
+Widzialnosc:               9000 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 005 stop
-   Typ:                    BKN, Podstawa: 043 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     02 stopni celsjusza
-Cisnienie atmosferyczne:   1013hPa
+   Typ:                    BKN, Podstawa: 005 ft
+   Typ:                    BKN, Podstawa: 043 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     02 °C
+Cisnienie atmosferyczne:   1013 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  18:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           10 wezlow
-Widzialnosc:               7000 metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           10 kt
+Widzialnosc:               7000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 006 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     02 stopni celsjusza
-Cisnienie atmosferyczne:   1013hPa
+   Typ:                    OVC, Podstawa: 006 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     02 °C
+Cisnienie atmosferyczne:   1013 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  17:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           11 wezlow
-Widzialnosc:               7000 metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           11 kt
+Widzialnosc:               7000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 005 stop
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1013hPa
+   Typ:                    OVC, Podstawa: 005 ft
+Temperatura:               02 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1013 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  16:00
-Wiatr w kierunku           210 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               6000 metrow
+Wiatr w kierunku           210 ° zmiana kierunku wiatru miedzy: 180 °, a 240 °
+predkosc wiatru:           08 kt
+Widzialnosc:               6000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 005 stop
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1013hPa
+   Typ:                    OVC, Podstawa: 005 ft
+Temperatura:               02 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1013 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  15:00
-Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
-predkosc wiatru:           10 wezlow
-Widzialnosc:               7000 metrow
+Wiatr w kierunku           220 ° zmiana kierunku wiatru miedzy: 180 °, a 240 °
+predkosc wiatru:           10 kt
+Widzialnosc:               7000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 006 stop
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1013hPa
+   Typ:                    OVC, Podstawa: 006 ft
+Temperatura:               02 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1013 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  14:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           10 wezlow
-Widzialnosc:               8000 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           10 kt
+Widzialnosc:               8000 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 006 stop
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1013hPa
+   Typ:                    OVC, Podstawa: 006 ft
+Temperatura:               02 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1013 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  13:00
-Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           220 ° zmiana kierunku wiatru miedzy: 180 °, a 240 °
+predkosc wiatru:           09 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1013hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1013 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  12:00
-Wiatr w kierunku           210 stopni
-predkosc wiatru:           10 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           210 °
+predkosc wiatru:           10 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1013hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1013 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  11:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           12 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           12 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1014hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1014 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  10:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           08 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1014hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1014 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  08:00
-Wiatr w kierunku           190 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           190 °
+predkosc wiatru:           07 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               00 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1015hPa
+Temperatura:               00 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1015 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  07:00
-Wiatr w kierunku           200 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               9000 metrow
+Wiatr w kierunku           200 °
+predkosc wiatru:           07 kt
+Widzialnosc:               9000 m
 Zachmurzenie:
-   Typ:                    FEW, Podstawa: 004 stop
-Temperatura:               -00 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1015hPa
+   Typ:                    FEW, Podstawa: 004 ft
+Temperatura:               -00 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1015 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  06:00
-Wiatr w kierunku           190 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               5000 metrow
+Wiatr w kierunku           190 °
+predkosc wiatru:           07 kt
+Widzialnosc:               5000 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 003 stop
-Temperatura:               00 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1016hPa
+   Typ:                    OVC, Podstawa: 003 ft
+Temperatura:               00 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1016 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  05:00
-Wiatr w kierunku           170 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               3000 metrow
+Wiatr w kierunku           170 °
+predkosc wiatru:           09 kt
+Widzialnosc:               3000 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 002 stop
-Temperatura:               00 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1016hPa
+   Typ:                    BKN, Podstawa: 002 ft
+Temperatura:               00 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1016 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  04:00
-Wiatr w kierunku           170 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               4200 metrow
+Wiatr w kierunku           170 °
+predkosc wiatru:           07 kt
+Widzialnosc:               4200 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 002 stop
-Temperatura:               00 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1017hPa
+   Typ:                    BKN, Podstawa: 002 ft
+Temperatura:               00 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1017 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  03:00
-Wiatr w kierunku           170 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               2400 metrow
+Wiatr w kierunku           170 °
+predkosc wiatru:           08 kt
+Widzialnosc:               2400 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 002 stop
-Temperatura:               00 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1017hPa
+   Typ:                    BKN, Podstawa: 002 ft
+Temperatura:               00 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1017 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  02:00
-Wiatr w kierunku           170 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               3100 metrow
+Wiatr w kierunku           170 °
+predkosc wiatru:           06 kt
+Widzialnosc:               3100 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 002 stop
-Temperatura:               -00 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1018hPa
+   Typ:                    BKN, Podstawa: 002 ft
+Temperatura:               -00 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1018 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  01:00
-Wiatr w kierunku           160 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               3200 metrow
+Wiatr w kierunku           160 °
+predkosc wiatru:           05 kt
+Widzialnosc:               3200 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 002 stop
-Temperatura:               -00 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1019hPa
+   Typ:                    BKN, Podstawa: 002 ft
+Temperatura:               -00 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1019 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            02
 Czas UTC:                  00:00
-Wiatr w kierunku           150 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               3600 metrow
+Wiatr w kierunku           150 °
+predkosc wiatru:           06 kt
+Widzialnosc:               3600 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 003 stop
-Temperatura:               00 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1019hPa
+   Typ:                    BKN, Podstawa: 003 ft
+Temperatura:               00 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1019 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  23:00
-Wiatr w kierunku           150 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               4200 metrow
+Wiatr w kierunku           150 °
+predkosc wiatru:           05 kt
+Widzialnosc:               4200 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    SCT, Podstawa: 004 stop
-Temperatura:               00 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1020hPa
+   Typ:                    SCT, Podstawa: 004 ft
+Temperatura:               00 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1020 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  22:00
-Wiatr w kierunku           170 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               4600 metrow
+Wiatr w kierunku           170 °
+predkosc wiatru:           05 kt
+Widzialnosc:               4600 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 004 stop
-Temperatura:               01 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1021hPa
+   Typ:                    BKN, Podstawa: 004 ft
+Temperatura:               01 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1021 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  21:00
-Wiatr w kierunku           170 stopni
-predkosc wiatru:           04 wezlow
-Widzialnosc:               4000 metrow
+Wiatr w kierunku           170 °
+predkosc wiatru:           04 kt
+Widzialnosc:               4000 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 006 stop
-Temperatura:               01 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1022hPa
+   Typ:                    BKN, Podstawa: 006 ft
+Temperatura:               01 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1022 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  20:00
-Wiatr w kierunku           180 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               5000 metrow
+Wiatr w kierunku           180 °
+predkosc wiatru:           05 kt
+Widzialnosc:               5000 m
 Zjawiska atmosferyczne:     BR
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 006 stop
-Temperatura:               01 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1022hPa
+   Typ:                    BKN, Podstawa: 006 ft
+Temperatura:               01 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1022 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  19:00
-Wiatr w kierunku           200 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               6000 metrow
+Wiatr w kierunku           200 °
+predkosc wiatru:           07 kt
+Widzialnosc:               6000 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 006 stop
-Temperatura:               01 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1023hPa
+   Typ:                    BKN, Podstawa: 006 ft
+Temperatura:               01 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1023 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  18:00
-Wiatr w kierunku           180 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               7000 metrow
+Wiatr w kierunku           180 °
+predkosc wiatru:           07 kt
+Widzialnosc:               7000 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 006 stop
-Temperatura:               01 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1023hPa
+   Typ:                    BKN, Podstawa: 006 ft
+Temperatura:               01 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1023 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  17:00
-Wiatr w kierunku           180 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               7000 metrow
+Wiatr w kierunku           180 °
+predkosc wiatru:           05 kt
+Widzialnosc:               7000 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 007 stop
-Temperatura:               01 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1024hPa
+   Typ:                    BKN, Podstawa: 007 ft
+Temperatura:               01 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1024 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  16:00
-Wiatr w kierunku           180 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               8000 metrow
+Wiatr w kierunku           180 °
+predkosc wiatru:           07 kt
+Widzialnosc:               8000 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 008 stop
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1024hPa
+   Typ:                    BKN, Podstawa: 008 ft
+Temperatura:               02 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1024 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  15:00
-Wiatr w kierunku           200 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               9000 metrow
+Wiatr w kierunku           200 °
+predkosc wiatru:           09 kt
+Widzialnosc:               9000 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 008 stop
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1025hPa
+   Typ:                    BKN, Podstawa: 008 ft
+Temperatura:               02 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1025 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  14:00
-Wiatr w kierunku           VRB stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               9000 metrow
+Wiatr w kierunku           VRB °
+predkosc wiatru:           05 kt
+Widzialnosc:               9000 m
 Zachmurzenie:
-   Typ:                    SCT, Podstawa: 009 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1025hPa
+   Typ:                    SCT, Podstawa: 009 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1025 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  13:00
-Wiatr w kierunku           190 stopni
-predkosc wiatru:           10 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           190 °
+predkosc wiatru:           10 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1025hPa
+Temperatura:               04 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1025 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  12:00
-Wiatr w kierunku           200 stopni
-predkosc wiatru:           10 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           200 °
+predkosc wiatru:           10 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               05 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1026hPa
+Temperatura:               05 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1026 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  11:00
-Wiatr w kierunku           200 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           200 °
+predkosc wiatru:           09 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1027hPa
+Temperatura:               04 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1027 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  10:00
-Wiatr w kierunku           200 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           200 °
+predkosc wiatru:           07 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1027hPa
+Temperatura:               04 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1027 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  09:00
-Wiatr w kierunku           200 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           200 °
+predkosc wiatru:           05 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1028hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1028 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  08:00
-Wiatr w kierunku           190 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           190 °
+predkosc wiatru:           09 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1028hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1028 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  07:00
-Wiatr w kierunku           210 stopnizmiana kierunku wiatru miedzy: 160 stopni, a 240 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           210 ° zmiana kierunku wiatru miedzy: 160 °, a 240 °
+predkosc wiatru:           07 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1028hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1028 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  06:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           09 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1028hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1028 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  05:00
-Wiatr w kierunku           210 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           210 °
+predkosc wiatru:           09 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1028hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1028 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  04:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           09 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1028hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1028 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  03:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           07 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1028hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1028 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  02:00
-Wiatr w kierunku           210 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           210 °
+predkosc wiatru:           06 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1029hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1029 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  01:00
-Wiatr w kierunku           220 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 250 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           220 ° zmiana kierunku wiatru miedzy: 180 °, a 250 °
+predkosc wiatru:           05 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1030hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1030 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            01
 Czas UTC:                  00:00
-Wiatr w kierunku           210 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           210 °
+predkosc wiatru:           07 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1030hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1030 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  23:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           09 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1030hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1030 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  22:00
-Wiatr w kierunku           230 stopnizmiana kierunku wiatru miedzy: 190 stopni, a 250 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           230 ° zmiana kierunku wiatru miedzy: 190 °, a 250 °
+predkosc wiatru:           09 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1030hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1030 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  21:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           09 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1031hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1031 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  20:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           10 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           10 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1031hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1031 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  19:00
-Wiatr w kierunku           200 stopnizmiana kierunku wiatru miedzy: 170 stopni, a 240 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           200 ° zmiana kierunku wiatru miedzy: 170 °, a 240 °
+predkosc wiatru:           08 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1031hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1031 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  18:00
-Wiatr w kierunku           210 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           210 °
+predkosc wiatru:           06 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1031hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1031 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  17:00
-Wiatr w kierunku           190 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           190 °
+predkosc wiatru:           08 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1031hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1031 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  16:00
-Wiatr w kierunku           190 stopni
-predkosc wiatru:           04 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           190 °
+predkosc wiatru:           04 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1032hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1032 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  15:00
-Wiatr w kierunku           180 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           180 °
+predkosc wiatru:           05 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1032hPa
+Temperatura:               02 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1032 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  14:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               CAVOK metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           08 kt
+Widzialnosc:               CAVOK m
 Zachmurzenie:
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1032hPa
+Temperatura:               03 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1032 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  13:00
-Wiatr w kierunku           210 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           210 °
+predkosc wiatru:           08 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    FEW, Podstawa: 018 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1032hPa
+   Typ:                    FEW, Podstawa: 018 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1032 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  12:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           11 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           11 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    FEW, Podstawa: 016 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     -01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    FEW, Podstawa: 016 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     -01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  11:00
-Wiatr w kierunku           240 stopni
-predkosc wiatru:           12 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           240 °
+predkosc wiatru:           12 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 015 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    BKN, Podstawa: 015 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  10:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           11 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           11 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 014 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    BKN, Podstawa: 014 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  09:00
-Wiatr w kierunku           210 stopnizmiana kierunku wiatru miedzy: 180 stopni, a 240 stopni
-predkosc wiatru:           10 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           210 ° zmiana kierunku wiatru miedzy: 180 °, a 240 °
+predkosc wiatru:           10 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 011 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     -00 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    BKN, Podstawa: 011 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     -00 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  08:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           08 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 011 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1034hPa
+   Typ:                    BKN, Podstawa: 011 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1034 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  07:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           09 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 010 stop
-Temperatura:               02 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1034hPa
+   Typ:                    OVC, Podstawa: 010 ft
+Temperatura:               02 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1034 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  06:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           07 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 010 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     00 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    OVC, Podstawa: 010 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     00 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  05:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           06 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 011 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    BKN, Podstawa: 011 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  04:00
-Wiatr w kierunku           220 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           220 °
+predkosc wiatru:           06 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 013 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    OVC, Podstawa: 013 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  03:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           05 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 015 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    OVC, Podstawa: 015 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  02:00
-Wiatr w kierunku           230 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           230 °
+predkosc wiatru:           07 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 015 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    OVC, Podstawa: 015 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  01:00
-Wiatr w kierunku           250 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           250 °
+predkosc wiatru:           05 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 013 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    BKN, Podstawa: 013 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            30
 Czas UTC:                  00:00
-Wiatr w kierunku           270 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           270 °
+predkosc wiatru:           08 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 011 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    OVC, Podstawa: 011 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  23:00
-Wiatr w kierunku           270 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           270 °
+predkosc wiatru:           08 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 012 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    OVC, Podstawa: 012 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  22:00
-Wiatr w kierunku           260 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           260 °
+predkosc wiatru:           07 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 013 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    OVC, Podstawa: 013 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  21:00
-Wiatr w kierunku           260 stopni
-predkosc wiatru:           07 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           260 °
+predkosc wiatru:           07 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 012 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    OVC, Podstawa: 012 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  20:00
-Wiatr w kierunku           270 stopni
-predkosc wiatru:           05 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           270 °
+predkosc wiatru:           05 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    OVC, Podstawa: 012 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    OVC, Podstawa: 012 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  19:00
-Wiatr w kierunku           290 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           290 °
+predkosc wiatru:           09 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 011 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1033hPa
+   Typ:                    BKN, Podstawa: 011 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  18:00
-Wiatr w kierunku           310 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           310 °
+predkosc wiatru:           06 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 014 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1032hPa
+   Typ:                    BKN, Podstawa: 014 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1032 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  17:00
-Wiatr w kierunku           310 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           310 °
+predkosc wiatru:           06 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 014 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     02 stopni celsjusza
-Cisnienie atmosferyczne:   1031hPa
+   Typ:                    BKN, Podstawa: 014 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     02 °C
+Cisnienie atmosferyczne:   1031 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  16:00
-Wiatr w kierunku           310 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           310 °
+predkosc wiatru:           08 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    SCT, Podstawa: 020 stop
-Temperatura:               03 stopni celsjusza
-temperatura pktu rosy:     02 stopni celsjusza
-Cisnienie atmosferyczne:   1031hPa
+   Typ:                    SCT, Podstawa: 020 ft
+Temperatura:               03 °C
+temperatura pktu rosy:     02 °C
+Cisnienie atmosferyczne:   1031 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  15:00
-Wiatr w kierunku           310 stopni
-predkosc wiatru:           11 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           310 °
+predkosc wiatru:           11 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    FEW, Podstawa: 008 stop
-   Typ:                    BKN, Podstawa: 030 stop
-Temperatura:               04 stopni celsjusza
-temperatura pktu rosy:     02 stopni celsjusza
-Cisnienie atmosferyczne:   1031hPa
+   Typ:                    FEW, Podstawa: 008 ft
+   Typ:                    BKN, Podstawa: 030 ft
+Temperatura:               04 °C
+temperatura pktu rosy:     02 °C
+Cisnienie atmosferyczne:   1031 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  14:00
-Wiatr w kierunku           330 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           330 °
+predkosc wiatru:           08 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    FEW, Podstawa: 008 stop
-   Typ:                    BKN, Podstawa: 030 stop
-Temperatura:               05 stopni celsjusza
-temperatura pktu rosy:     03 stopni celsjusza
-Cisnienie atmosferyczne:   1030hPa
+   Typ:                    FEW, Podstawa: 008 ft
+   Typ:                    BKN, Podstawa: 030 ft
+Temperatura:               05 °C
+temperatura pktu rosy:     03 °C
+Cisnienie atmosferyczne:   1030 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  13:00
-Wiatr w kierunku           320 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           320 °
+predkosc wiatru:           08 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 008 stop
-Temperatura:               05 stopni celsjusza
-temperatura pktu rosy:     04 stopni celsjusza
-Cisnienie atmosferyczne:   1030hPa
+   Typ:                    BKN, Podstawa: 008 ft
+Temperatura:               05 °C
+temperatura pktu rosy:     04 °C
+Cisnienie atmosferyczne:   1030 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  12:00
-Wiatr w kierunku           340 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           340 °
+predkosc wiatru:           09 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 007 stop
-Temperatura:               05 stopni celsjusza
-temperatura pktu rosy:     04 stopni celsjusza
-Cisnienie atmosferyczne:   1029hPa
+   Typ:                    BKN, Podstawa: 007 ft
+Temperatura:               05 °C
+temperatura pktu rosy:     04 °C
+Cisnienie atmosferyczne:   1029 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  11:00
-Wiatr w kierunku           340 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           340 °
+predkosc wiatru:           08 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 007 stop
-Temperatura:               06 stopni celsjusza
-temperatura pktu rosy:     05 stopni celsjusza
-Cisnienie atmosferyczne:   1029hPa
+   Typ:                    BKN, Podstawa: 007 ft
+Temperatura:               06 °C
+temperatura pktu rosy:     05 °C
+Cisnienie atmosferyczne:   1029 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  10:00
-Wiatr w kierunku           360 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               9000 metrow
+Wiatr w kierunku           360 °
+predkosc wiatru:           08 kt
+Widzialnosc:               9000 m
 Zjawiska atmosferyczne:    -RA
 Zachmurzenie:
-   Typ:                    FEW, Podstawa: 007 stop
-   Typ:                    BKN, Podstawa: 020 stop
-Temperatura:               06 stopni celsjusza
-temperatura pktu rosy:     04 stopni celsjusza
-Cisnienie atmosferyczne:   1028hPa
+   Typ:                    FEW, Podstawa: 007 ft
+   Typ:                    BKN, Podstawa: 020 ft
+Temperatura:               06 °C
+temperatura pktu rosy:     04 °C
+Cisnienie atmosferyczne:   1028 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  09:00
-Wiatr w kierunku           360 stopni
-predkosc wiatru:           06 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           360 °
+predkosc wiatru:           06 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 029 stop
-Temperatura:               06 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1028hPa
+   Typ:                    BKN, Podstawa: 029 ft
+Temperatura:               06 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1028 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  08:00
-Wiatr w kierunku           020 stopnizmiana kierunku wiatru miedzy: 360 stopni, a 060 stopni
-predkosc wiatru:           08 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           020 ° zmiana kierunku wiatru miedzy: 360 °, a 060 °
+predkosc wiatru:           08 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 032 stop
-Temperatura:               06 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1027hPa
+   Typ:                    BKN, Podstawa: 032 ft
+Temperatura:               06 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1027 hPa
 
 Lotnisko(ICAO):            EPGD
 Dzień miesiąca:            29
 Czas UTC:                  07:00
-Wiatr w kierunku           020 stopnizmiana kierunku wiatru miedzy: 340 stopni, a 050 stopni
-predkosc wiatru:           09 wezlow
-Widzialnosc:               9999 metrow
+Wiatr w kierunku           020 ° zmiana kierunku wiatru miedzy: 340 °, a 050 °
+predkosc wiatru:           09 kt
+Widzialnosc:               9999 m
 Zachmurzenie:
-   Typ:                    BKN, Podstawa: 026 stop
-Temperatura:               06 stopni celsjusza
-temperatura pktu rosy:     01 stopni celsjusza
-Cisnienie atmosferyczne:   1026hPa
+   Typ:                    BKN, Podstawa: 026 ft
+Temperatura:               06 °C
+temperatura pktu rosy:     01 °C
+Cisnienie atmosferyczne:   1026 hPa
 
