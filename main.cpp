@@ -22,6 +22,17 @@ struct METARdata
     char atmprs[5] = {'\0'};
 };
 
+struct Airport {
+    char icao[5]; 
+    char name[50]; 
+};
+
+struct WeatherCode
+{
+    char code[3];
+    char description[50];
+};
+
 void Starter(char &inputaction)
 {
     cout << "Tomasz Ciurkowski 203191" << endl;
@@ -227,9 +238,153 @@ void AtmosphericPressure(const char* line, int& index, METARdata& data)
     data.atmprs[4] = '\0';
 }
 
+
+const char* TranslateICAO(const char icao[5])
+{
+    static const Airport airports[] = 
+    {
+    {"EPWA", "Warszawa-Okecie"},
+    {"EPKK", "Krakow"},
+    {"EPGD", "Gdansk"},
+    {"EPKT", "Katowice"},
+    {"EPWR", "Wroclaw"},
+    {"EPMO", "Warszawa-Modlin"},
+    {"EPPO", "Poznan"},
+    {"EPRZ", "Rzeszow"},
+    {"EPSC", "Szczecin"},
+    {"EPLB", "Lublin"},
+    {"EPBT", "Bydgoszcz"},
+    {"EPLL", "Łodz"},
+    {"EPSY", "Olsztyn"},
+    {"EPRA", "Radom"},
+    {"EPZG", "Zielona Gora"}
+    };
+
+    for (int i = 0; i < 15; i++)
+     {
+        bool match = true;
+        for (int j = 2; j < 4; j++) {
+            if (airports[i].icao[j] != icao[j]) {
+                match = false;
+                break;
+            }
+        }
+        if (match) {
+            return airports[i].name; 
+        }
+    }
+    return "Nieznane lotnisko"; 
+}
+
+static char* TranslateWeather(const char Wthrphnmn[3][6])
+{
+    static const WeatherCode intensity[] = {
+        {"+", "silny "},
+        {"-", "słaby "}
+    };
+
+    static const WeatherCode weather[] =
+    {
+        {"BR", "zamglenie"},
+        {"DS", "burza pylu"},
+        {"DU", "rozlegly pyl"},
+        {"DZ", "mzawka"},
+        {"FC", "chmura lejka"},
+        {"FG", "mgla"},
+        {"FU", "dym"},
+        {"GR", "grad"},
+        {"GS", "krupa sniezna"},
+        {"HZ", "mgla"},
+        {"IC", "krysztaly lodu"},
+        {"PE", "granulki lodu"},
+        {"PO", "wiry piasku"},
+        {"PY", "pył"},
+        {"RA", "deszcz"},
+        {"SA", "piasek"},
+        {"SG", "śnieg ziarnisty"},
+        {"SN", "śnieg"},
+        {"SQ", "szkwaly"},
+        {"SS", "burza piaskowa"},
+        {"UP", "nieznane opady"},
+        {"VA", "popiół wulkaniczny"},
+        {"BC", "plastry"},
+        {"DR", "zamiec przyziemna"},
+        {"MI", "plycizna"},
+        {"PR", "czesciowy"},
+        {"BL", "zawieja"},
+        {"FZ", "zamrazanie"},
+        {"SH", "prysznice"},
+        {"TS", "burza"},
+    };
+
+    static char translation[256] = {'\0'};
+    int translateindex = 0;
+
+    for (int i = 0; i < 3; i++)
+    {
+        if (Wthrphnmn[i][0] == '\0')
+        {
+           break;
+        }
+
+        int whtrindex = 0;
+
+        const char* Segment = Wthrphnmn[i];
+
+        const char* intensitydscrp = "";
+
+        for (int j = 0; j < 2; j++)
+        {
+            if (Segment[whtrindex] == intensity[j].code[0])
+            {
+                intensitydscrp = intensity[j].description;
+                ++whtrindex;
+                break;
+            }
+        }
+
+        for (const char* p = intensitydscrp; *p != '\0'; ++p) 
+        {
+            translation[translateindex++] = *p;
+        }
+
+        while (Segment[whtrindex] != '\0')
+        {
+            char code[3] = {Segment[whtrindex], Segment[whtrindex + 1], '\0'};
+            bool exists = false;
+
+            for (int j = 0; j < 29; j++)
+            {
+                if (code[0] == weather[j].code[0] && code[1] == weather[j].code[1]) {
+                    for (const char* p = weather[j].description; *p != '\0'; ++p) {
+                        translation[translateindex++] = *p;
+                    }
+                    translation[translateindex++] = ' ';
+                    exists = true;
+                    break;
+                }
+            }
+            if (!exists)
+            {
+                const char unknown[] = "nieznane_zjawisko(";
+                for (const char* p = unknown; *p != '\0'; ++p) 
+                {
+                    translation[translateindex++] = *p;
+                }
+                translation[translateindex++] = code[0];
+                translation[translateindex++] = code[1];
+                translation[translateindex++] = ')';
+                translation[translateindex++] = ' ';
+            }
+            whtrindex += 2;
+        } 
+    }
+    translation[translateindex] = '\0';
+    return translation;
+}
 void DisplayData(const METARdata& data)
 {
-    cout << "Lotnisko(ICAO):            " << data.ICAO << endl;
+    cout << "Lotnisko(ICAO):            " << TranslateICAO(data.ICAO) << endl;
     cout << "Dzien miesiaca:            " << data.Day << endl;
     cout << "Czas UTC:                  " << data.UTCtime[0] << data.UTCtime[1] << ":" << data.UTCtime[2] << data.UTCtime[3] << endl;
     cout << "Wiatr w kierunku           " << data.WindDir << "\u00B0";
@@ -256,15 +411,11 @@ void DisplayData(const METARdata& data)
     
     cout << "Widzialnosc:               " << data.Visblty << " m" << endl;
 
-    cout << "Zjawiska atmosferyczne:" << endl;
-
-    for (int i = 0; i < 3; i++)
+    if (data.Wthrphnm[0][0] != '\0')
     {
-        if (data.Wthrphnm[i][0] != '\0')
-        {
-            cout << "- Segment " << i + 1 << ": " << data.Wthrphnm[i] << endl;
-        }
+        cout << "Zjawiska atmosferyczne:    " << TranslateWeather(data.Wthrphnm) << endl;
     }
+    
 
     cout << "Zachmurzenie:" << endl;
     for (int i = 0; i < data.Cloudcount; i++) {
@@ -278,7 +429,7 @@ void DisplayData(const METARdata& data)
 
 void SaveToFile(ofstream& outfile, METARdata& data)
 {
-    outfile << "Lotnisko(ICAO):            " << data.ICAO << endl;
+    outfile << "Lotnisko(ICAO):            " << TranslateICAO(data.ICAO) << endl;
     outfile << "Dzień miesiąca:            " << data.Day << endl;
     outfile << "Czas UTC:                  " << data.UTCtime[0] << data.UTCtime[1] << ":" << data.UTCtime[2] << data.UTCtime[3] << endl;
     outfile << "Wiatr w kierunku           " << data.WindDir << "\u00B0";
@@ -303,14 +454,9 @@ void SaveToFile(ofstream& outfile, METARdata& data)
 
     outfile << "Widzialnosc:               " << data.Visblty << " m" << endl;
 
-    outfile << "Zjawiska atmosferyczne:" << endl;
-
-    for (int i = 0; i < 3; i++)
+    if (data.Wthrphnm[0][0] != '\0')
     {
-        if (data.Wthrphnm[i][0] != '\0')
-        {
-            outfile << "- Segment " << i + 1 << ": " << data.Wthrphnm[i] << endl;
-        }
+        outfile << "Zjawiska atmosferyczne:    " << TranslateWeather(data.Wthrphnm) << endl;
     }
 
     outfile << "Zachmurzenie:" << endl;
