@@ -14,7 +14,7 @@ struct METARdata
     char WindDirCh[8] = {'\0'};
     char Visblty[6] = {'\0'};
     char Wthrphnmstrngh = {'\0'};
-    char Wthrphnm[3] = {'\0'};
+    char Wthrphnm[3][6] = {'\0'};
     char Clouds[6][4] = {'\0'};
     char Cldhght[6][4] = {'\0'};
     int Cloudcount = 0;
@@ -135,19 +135,30 @@ void Visiblity(const char* line, int& index, METARdata& data)
 }
 void WeatherPhenomena(const char* line, int& index, METARdata& data)
 {
-    if (line[index] == '+' || line[index] == '-')
-    {
-        data.Wthrphnmstrngh = line[index++];
-    }
+    int segmentcount = 0;
 
-    if (line[index + 2] == ' ')
+    while(line[index] != '\0' && line[index] != ' ' && segmentcount < 3 && line[index+2] != '/' && line[index+3] != '/' && !(line[index+3] >= '0' && line[index+3] <= '9')) 
     {
-        for (int i = 0; i < 2; i++)
+        if (!(line[index] == '+' || line[index] == '-')&& line[index+3] == ' ')
         {
-            data.Wthrphnm[i] = line[index++];
+            break;
         }
-        data.Wthrphnm[2] = '\0';
-        index++;
+        
+        int charcount = 0;
+        while (line[index] != '\0' && line[index] != ' ' && charcount < 5)
+        {
+            data.Wthrphnm[segmentcount][charcount++] = line[index++];
+        }
+        data.Wthrphnm[segmentcount][charcount] = '\0';
+        segmentcount++;
+        while (line[index] == ' ')
+        {
+            index++;
+        }
+    }
+    for (int i = segmentcount; i < 3; i++)
+    {
+        data.Wthrphnm[i][0] = '\0';
     }
 }
 
@@ -155,16 +166,20 @@ void CloudsInfo(const char* line, int& index, METARdata& data)
 {
     data.Cloudcount = 0;
 
-    while (line[index] != '\0' && line[index+2] != '/' && line[index+3] != '/' && data.Cloudcount < 6)
+    while (line[index] != '\0' && line[index+2] != '/' && line[index+3] != '/' && data.Cloudcount < 6 )
     {
         for (int i = 0; i < 3; i++) {
             data.Clouds[data.Cloudcount][i] = line[index++];
         }
         data.Clouds[data.Cloudcount][3] = '\0';
-        for (int i = 0; i < 3; i++) {
-            data.Cldhght[data.Cloudcount][i] = line[index++];
+        if (line[index] >= '0' && line[index] <= '9')
+        {
+            for (int i = 0; i < 3; i++) {
+                data.Cldhght[data.Cloudcount][i] = line[index++];
+            }
+            data.Cldhght[data.Cloudcount][3] = '\0';            
         }
-        data.Cldhght[data.Cloudcount][3] = '\0';
+
         data.Cloudcount++;
         index++;
     }
@@ -242,10 +257,16 @@ void DisplayData(const METARdata& data)
     
     cout << "Widzialnosc:               " << data.Visblty << " m" << endl;
 
-    if (data.Wthrphnm[0] != '\0')
+    cout << "Zjawiska atmosferyczne:" << endl;
+
+    for (int i = 0; i < 3; i++)
     {
-        cout << "Zjawiska atmosferyczne:    " << data.Wthrphnmstrngh << data.Wthrphnm << endl;
+        if (data.Wthrphnm[i][0] != '\0')
+        {
+            cout << "- Segment " << i + 1 << ": " << data.Wthrphnm[i] << endl;
+        }
     }
+
     cout << "Zachmurzenie:" << endl;
     for (int i = 0; i < data.Cloudcount; i++) {
         cout << "   Typ:                    " << data.Clouds[i] 
@@ -283,10 +304,16 @@ void SaveToFile(ofstream& outfile, METARdata& data)
 
     outfile << "Widzialnosc:               " << data.Visblty << " m" << endl;
 
-    if (data.Wthrphnm[0] != '\0')
+    outfile << "Zjawiska atmosferyczne:" << endl;
+
+    for (int i = 0; i < 3; i++)
     {
-        outfile << "Zjawiska atmosferyczne:    " << data.Wthrphnmstrngh << data.Wthrphnm << endl;
+        if (data.Wthrphnm[i][0] != '\0')
+        {
+            outfile << "- Segment " << i + 1 << ": " << data.Wthrphnm[i] << endl;
+        }
     }
+
     outfile << "Zachmurzenie:" << endl;
     for (int i = 0; i < data.Cloudcount; i++) {
         outfile << "   Typ:                    " << data.Clouds[i]
