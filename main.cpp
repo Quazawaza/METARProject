@@ -13,7 +13,6 @@ struct METARdata
     char WindGst[3] = {'\0'};
     char WindDirCh[8] = {'\0'};
     char Visblty[6] = {'\0'};
-    char Wthrphnmstrngh = {'\0'};
     char Wthrphnm[3][6] = {'\0'};
     char Clouds[6][4] = {'\0'};
     char Cldhght[6][4] = {'\0'};
