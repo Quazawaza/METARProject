@@ -409,7 +409,15 @@ void DisplayData(const METARdata& data)
 
 
     
-    cout << "Widzialnosc:               " << data.Visblty << " m" << endl;
+    cout << "Widzialnosc:               ";
+    if (data.Visblty[0] == 'C')
+    {
+        cout << "chmury i widoczność są w porządku" << endl;
+    }
+    else
+    {
+        cout << data.Visblty << " m" << endl;
+    }
 
     if (data.Wthrphnm[0][0] != '\0')
     {
@@ -452,7 +460,15 @@ void SaveToFile(ofstream& outfile, METARdata& data)
         outfile << endl;
     }
 
-    outfile << "Widzialnosc:               " << data.Visblty << " m" << endl;
+    outfile << "Widzialnosc:               ";
+    if (data.Visblty[0] == 'C')
+    {
+        outfile << "chmury i widoczność są w porządku" << endl;
+    }
+    else
+    {
+        outfile << data.Visblty << " m" << endl;
+    }
 
     if (data.Wthrphnm[0][0] != '\0')
     {
