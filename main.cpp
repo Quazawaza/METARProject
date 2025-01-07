@@ -22,7 +22,8 @@ struct METARdata
     char atmprs[5] = {'\0'};
 };
 
-struct Airport {
+struct Airport 
+{
     char icao[5]; 
     char name[50]; 
 };
@@ -30,6 +31,12 @@ struct Airport {
 struct WeatherCode
 {
     char code[3];
+    char description[50];
+};
+
+struct CloudInfo
+{
+    char CloudCode[4];
     char description[50];
 };
 
@@ -382,6 +389,57 @@ static char* TranslateWeather(const char Wthrphnmn[3][6])
     translation[translateindex] = '\0';
     return translation;
 }
+
+const char* TranslateCloudData(const char* Cloudsdesc)
+{
+    static const CloudInfo Cloudinf[] =
+    {
+        {"FEW", "nieliczne chmury"},
+        {"SCT", "rozproszone chmury"},
+        {"BKN", "zachmurzenie umiarkowane"},
+        {"OVC", "zachmurzenie calkowite"},
+        {"NSC", "brak znaczacego zachmurzenia"},
+        {"SKC", "brak zachmurzenia"},
+        {"NCD", "brak zmierzonych chmur"},
+        {"CLR", "brak zachmurzenia ponizej 12000 ft"},
+    };
+
+    static char translation[256] = {'\0'};
+    bool exists = false;
+
+    for (int i = 0; i < 8; i++)
+    {
+        if (Cloudsdesc[0] == Cloudinf[i].CloudCode[0] && Cloudsdesc[1] == Cloudinf[i].CloudCode[1] && Cloudsdesc[2] == Cloudinf[i].CloudCode[2])
+        {
+            const char* description = Cloudinf[i].description;
+            int cloudindex = 0;
+            for (const char* p = description; *p != '\0'; ++p)
+            {
+                translation[cloudindex++] = *p;
+            }
+            translation[cloudindex] = '\0';
+            exists = true;
+            break;
+        }
+    }
+    if (!exists)
+    {
+        const char unknown[] = "nieznane_zachmurzenie(";
+        int cloudindex = 0;
+        for (const char* p = unknown; *p != '\0'; ++p)
+        {
+            translation[cloudindex++] = *p;
+        }
+        for (int i = 0; i < 3; i++)
+        {
+            translation[cloudindex++] = Cloudsdesc[i];
+        }
+        translation[cloudindex++] = ')';
+        translation[cloudindex] = '\0';
+    }
+    return translation;
+}
+
 void DisplayData(const METARdata& data)
 {
     cout << "Lotnisko(ICAO):            " << TranslateICAO(data.ICAO) << endl;
@@ -425,10 +483,24 @@ void DisplayData(const METARdata& data)
     }
     
 
-    cout << "Zachmurzenie:" << endl;
-    for (int i = 0; i < data.Cloudcount; i++) {
-        cout << "   Typ:                    " << data.Clouds[i] 
-             << ", Podstawa: " << data.Cldhght[i] << " ft" << endl;
+    if (data.Cloudcount != 0)
+    {
+        cout << "Zachmurzenie:" << endl;
+        for (int i = 0; i < 6; ++i)
+        {
+            if (data.Clouds[i][0] != '\0')
+            {
+                cout <<"Typ:                       " << TranslateCloudData(data.Clouds[i]);
+            }
+            if (data.Cldhght[i][0] != '\0')
+            {
+                cout<< " ,Podstawa " << data.Cldhght[i] << " ft" << endl;
+            }
+            if (data.Cldhght[i][0] == '\0' && !(i > data.Cloudcount - 1))
+            {
+                cout << endl;
+            } 
+        }
     }
     cout << "Temperatura:               " << data.tmp << "\u00B0C"<< endl; 
     cout << "temperatura pktu rosy:     " << data.dewtmp << "\u00B0C" << endl;
@@ -474,11 +546,26 @@ void SaveToFile(ofstream& outfile, METARdata& data)
     {
         outfile << "Zjawiska atmosferyczne:    " << TranslateWeather(data.Wthrphnm) << endl;
     }
-
-    outfile << "Zachmurzenie:" << endl;
-    for (int i = 0; i < data.Cloudcount; i++) {
-        outfile << "   Typ:                    " << data.Clouds[i]
-            << ", Podstawa: " << data.Cldhght[i] << " ft" << endl;
+    
+    if (data.Cloudcount != 0)
+    {
+        outfile << "Zachmurzenie:" << endl;
+        for (int i = 0; i < 6; ++i)
+        {
+            if (data.Clouds[i][0] != '\0')
+            {
+                outfile <<"Typ:                       " << TranslateCloudData(data.Clouds[i]);
+            }
+            if (data.Cldhght[i][0] != '\0')
+            {
+                outfile << " ,Podstawa " << data.Cldhght[i] << " ft" << endl;
+            }
+            if (data.Cldhght[i][0] == '\0' && !(i > data.Cloudcount - 1))
+            {
+                outfile << endl;
+            } 
+            
+        }
     }
     outfile << "Temperatura:               " << data.tmp << "\u00B0C" << endl;
     outfile << "temperatura pktu rosy:     " << data.dewtmp << "\u00B0C" << endl;
