@@ -13,6 +13,7 @@ struct METARdata
     char WindGst[3] = {'\0'};
     char WindDirCh[8] = {'\0'};
     char Visblty[6] = {'\0'};
+    char RVR[5][15] = {'\0'};
     char Wthrphnm[3][6] = {'\0'};
     char Clouds[6][4] = {'\0'};
     char Cldhght[6][4] = {'\0'};
@@ -38,6 +39,15 @@ struct CloudInfo
 {
     char CloudCode[4];
     char description[50];
+};
+
+struct RVRdata
+{
+    char runway[4];
+    char lowerVis[5];
+    char upperVis[5];
+    char trend;
+    bool variable;
 };
 
 void Starter(char &inputaction)
@@ -150,6 +160,35 @@ void Visiblity(const char* line, int& index, METARdata& data)
     data.Visblty[visibilityindex++] = '\0';
     index++;
 }
+
+void ProcesRVR(const char* line, int& index ,METARdata& data)
+{
+    int rvrindex = 0;
+
+    while (line[index] != ' ' && rvrindex < 5)
+    {
+        if (line[index] == 'R' && line[index+1] >= '0' && line[index+1] <= '9')
+        {
+            int charIndex = 0;
+            while (line[index] != ' ' && line[index] != '\0' && charIndex < 14)
+            {
+                data.RVR[rvrindex][charIndex++] = line[index++];
+            }
+            data.RVR[rvrindex][charIndex] = '\0';
+            rvrindex++;
+        }
+        else
+        {
+            index++;
+        }
+    }
+    for (int i = rvrindex; i < 5; i++)
+    {
+        data.RVR[i][0] = '\0';
+    }
+    index++;
+}
+
 void WeatherPhenomena(const char* line, int& index, METARdata& data)
 {
     int segmentcount = 0;
@@ -606,8 +645,8 @@ void ParseMETAR(const char* line, METARdata& data, ofstream& outfile)
     {
         WindDirectionChange(line, index, data);
     }
-
     Visiblity(line, index, data);
+    ProcesRVR(line, index, data);
     WeatherPhenomena(line, index, data);
     CloudsInfo(line, index, data);
     Temperature(line, index, data);
