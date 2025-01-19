@@ -296,6 +296,21 @@ void CloudsInfo(const char* line, int& index, METARdata& data)
 
     while (line[index] != '\0' && line[index+2] != '/' && line[index+3] != '/' && data.Cloudcount < 6 )
     {
+        if (line[index] == 'V' && line[index + 1] == 'V')
+        {
+            data.Clouds[data.Cloudcount][0] = 'V';
+            data.Clouds[data.Cloudcount][1] = 'V';
+            data.Clouds[data.Cloudcount][2] = '\0';
+            index+=2;
+            for (int i = 0; i < 3; i++)
+            {
+                data.Cldhght[data.Cloudcount][i] = line[index++];
+            }
+            index++;
+            data.Cloudcount++;
+            break;
+        }
+        
         for (int i = 0; i < 3; i++) {
             data.Clouds[data.Cloudcount][i] = line[index++];
         }
@@ -513,12 +528,13 @@ const char* TranslateCloudData(const char* Cloudsdesc)
         {"SKC", "brak zachmurzenia"},
         {"NCD", "brak zmierzonych chmur"},
         {"CLR", "brak zachmurzenia ponizej 12000 ft"},
+        {"VV", "Widok pionowy"}
     };
 
     static char translation[256] = {'\0'};
     bool exists = false;
 
-    for (int i = 0; i < 8; i++)
+    for (int i = 0; i < 9; i++)
     {
         if (Cloudsdesc[0] == Cloudinf[i].CloudCode[0] && Cloudsdesc[1] == Cloudinf[i].CloudCode[1] && Cloudsdesc[2] == Cloudinf[i].CloudCode[2])
         {
@@ -694,7 +710,15 @@ void DisplayData(const METARdata& data)
             }
             if (data.Cldhght[i][0] != '\0')
             {
-                cout<< " ,Podstawa " << data.Cldhght[i] << " ft" << endl;
+                cout << " ,Podstawa ";
+                if (data.Cldhght[i][0] == 'V')
+                {
+                    cout << data.Cldhght[i+2] << "00 ft" << endl;
+                }
+                else
+                {
+                    cout << data.Cldhght[i] << " ft" << endl;
+                }
             }
             if (data.Cldhght[i][0] == '\0' && !(i > data.Cloudcount - 1))
             {
@@ -770,7 +794,16 @@ void SaveToFile(ofstream& outfile, METARdata& data)
             }
             if (data.Cldhght[i][0] != '\0')
             {
-                outfile << " ,Podstawa " << data.Cldhght[i] << " ft" << endl;
+                outfile << " ,Podstawa ";
+                if (data.Clouds[i][0] == 'V')
+                {
+                    outfile << data.Cldhght[i][2] << "00 ft" << endl;
+                }
+                else
+                {
+                    outfile << data.Cldhght[i] << " ft" << endl;
+                }
+                 
             }
             if (data.Cldhght[i][0] == '\0' && !(i > data.Cloudcount - 1))
             {
