@@ -13,6 +13,7 @@ struct METARdata
     char WindGst[3] = {'\0'};
     char WindDirCh[8] = {'\0'};
     char Visblty[6] = {'\0'};
+    char VisDir[7] = {'\0'};
     char RVR[5][15] = {'\0'};
     char Wthrphnm[3][6] = {'\0'};
     char Clouds[6][4] = {'\0'};
@@ -159,6 +160,20 @@ void Visiblity(const char* line, int& index, METARdata& data)
     }
     data.Visblty[visibilityindex++] = '\0';
     index++;
+}
+
+void DirectionalVisibility(const char* line, int& index, METARdata& data)
+{
+    if (line[index] >= '0' && line[index] <= '9'&& line[index] && (line[index+4] == 'W' || line[index+4] == 'E' || line[index+4] == 'N' || line[index+4] == 'S'))
+    {
+        int visindex=0;
+        while (visindex < 6 && line[index] != ' ') 
+        {
+            data.VisDir[visindex++] = line[index++];
+        }
+        index++;
+    }
+
 }
 
 void ProcesRVR(const char* line, int& index ,METARdata& data)
@@ -567,6 +582,65 @@ const char* TranslateCloudData(const char* Cloudsdesc)
     return translation;
 }
 
+const char* TranslateVisDir(const char* visdir)
+{
+    static char translation[128];
+    int vidindex = 0;
+    for (int i = 0; i < 4; ++i)
+    {
+        translation[vidindex++] = visdir[i];
+    }
+
+    const char* meters = " m w kierunku ";
+
+    for (int i = 0; meters[i] != '\0'; ++i)
+    {
+        translation[vidindex++] = meters[i];
+    }
+
+    const char* direction = 0;
+
+    if (visdir[4] == 'N' && visdir[5] == 'E') 
+    {
+        direction = "północno-wschodnim";
+    } 
+    else if (visdir[4] == 'N' && visdir[5] == 'W') 
+    {
+        direction = "północno-zachodnim";
+    } 
+    else if (visdir[4] == 'S' && visdir[5] == 'E') 
+    {
+        direction = "południowo-wschodnim";
+    } 
+    else if (visdir[4] == 'S' && visdir[5] == 'W') 
+    {
+        direction = "południowo-zachodnim";
+    } 
+    else if (visdir[4] == 'N') 
+    {
+        direction = "północnym";
+    } 
+    else if (visdir[4] == 'S') 
+    {
+        direction = "południowym";
+    } 
+    else if (visdir[4] == 'E') 
+    {
+        direction = "wschodnim";
+    } 
+    else if (visdir[4] == 'W') 
+    {
+        direction = "zachodnim";
+    }
+    for (const char* p = direction; *p != '\0'; ++p) 
+    {
+        translation[vidindex++] = *p;
+    }
+    translation[vidindex] = '\0';
+    return translation;
+
+}
+
 const char* TranslateRVR(const RVRdata& rvr)
 {
     static char translation[128] = {'\0'};
@@ -680,6 +754,10 @@ void DisplayData(const METARdata& data)
     {
         cout << data.Visblty << " m" << endl;
     }
+    if (data.VisDir[0] != '\0')
+    {
+        cout << "Widzialnosc:           " << TranslateVisDir(data.VisDir) << endl;
+    }
     if (data.RVR[0][0] != '\0')
     {
         RVRdata rvrArray[5];
@@ -765,6 +843,11 @@ void SaveToFile(ofstream& outfile, METARdata& data)
     {
         outfile << data.Visblty << " m" << endl;
     }
+    if (data.VisDir[0] != '\0')
+    {
+        outfile << "Widzialnosc:            " << TranslateVisDir(data.VisDir) << endl;
+    }
+    
     if (data.RVR[0][0] != '\0')
     {
         RVRdata rvrArray[5] = {'\0'};
@@ -852,6 +935,7 @@ void ParseMETAR(const char* line, METARdata& data, ofstream& outfile)
         WindDirectionChange(line, index, data);
     }
     Visiblity(line, index, data);
+    DirectionalVisibility(line, index, data);
     ProcesRVR(line, index, data);
     WeatherPhenomena(line, index, data);
     CloudsInfo(line, index, data);

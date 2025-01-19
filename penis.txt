@@ -4,6 +4,7 @@ Czas UTC:                  04:00
 Wiatr w kierunku           190°
 predkosc wiatru:           05 kt
 Widzialnosc:               0400 m
+Widzialnosc:            0400 m w kierunku zachodnim
 Widzialnosc dla pasa startowego: 01 wynosi 0450 metrow
 Zjawiska atmosferyczne:    zamrazanie mgla 
 Zachmurzenie:
@@ -3663,11 +3664,14 @@ Czas UTC:                  07:00
 Wiatr w kierunku           170° zmiana kierunku wiatru miedzy: 140°, a 230°
 predkosc wiatru:           03 kt
 Widzialnosc:               6000 m
+Widzialnosc:            0600 m w kierunku wschodnim
+Widzialnosc dla pasa startowego: 29 wynosi 1200 metrow, ale wzrasta
+Zjawiska atmosferyczne:    plastry mgla 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(060) ,Podstawa 0E  ft
-Temperatura:               29°C
-temperatura pktu rosy:     12°C
-Cisnienie atmosferyczne:   U BC hPa
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               -03°C
+temperatura pktu rosy:     -04°C
+Cisnienie atmosferyczne:   1020 hPa
 
 Lotnisko(ICAO):            Gdansk
 Dzień miesiąca:            02
@@ -3827,11 +3831,14 @@ Czas UTC:                  05:00
 Wiatr w kierunku           140°
 predkosc wiatru:           13 kt
 Widzialnosc:               1400 m
+Widzialnosc:            1200 m w kierunku zachodnim
+Widzialnosc dla pasa startowego: 11 wynosi 1500 metrow
+Zjawiska atmosferyczne:    zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(120) ,Podstawa 0W  ft
-Temperatura:               11°C
-temperatura pktu rosy:     15°C
-Cisnienie atmosferyczne:   N BR hPa
+Typ:                       zachmurzenie calkowite ,Podstawa 002 ft
+Temperatura:               01°C
+temperatura pktu rosy:     01°C
+Cisnienie atmosferyczne:   1022 hPa
 
 Lotnisko(ICAO):            Łodz
 Dzień miesiąca:            02
@@ -3942,11 +3949,14 @@ Czas UTC:                  05:00
 Wiatr w kierunku           120°
 predkosc wiatru:           04 kt
 Widzialnosc:               9999 m
+Widzialnosc:            0800 m w kierunku wschodnim
+Widzialnosc dla pasa startowego: 29 wynosi 1300 metrow, ale maleje
+Zjawiska atmosferyczne:    plastry mgla 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(080) ,Podstawa 0E  ft
-Temperatura:               29°C
-temperatura pktu rosy:     13°C
-Cisnienie atmosferyczne:   D BC hPa
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               -03°C
+temperatura pktu rosy:     -04°C
+Cisnienie atmosferyczne:   1019 hPa
 
 Lotnisko(ICAO):            Gdansk
 Dzień miesiąca:            02
@@ -4082,11 +4092,14 @@ Czas UTC:                  04:00
 Wiatr w kierunku           120°
 predkosc wiatru:           04 kt
 Widzialnosc:               9999 m
+Widzialnosc:            0750 m w kierunku wschodnim
+Widzialnosc dla pasa startowego: 29 wynosi 1000 metrow, ale wzrasta
+Zjawiska atmosferyczne:    plastry mgla 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(075) ,Podstawa 0E  ft
-Temperatura:               29°C
-temperatura pktu rosy:     10°C
-Cisnienie atmosferyczne:   U BC hPa
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               -02°C
+temperatura pktu rosy:     -03°C
+Cisnienie atmosferyczne:   1020 hPa
 
 Lotnisko(ICAO):            Gdansk
 Dzień miesiąca:            02
@@ -4223,11 +4236,14 @@ Czas UTC:                  03:00
 Wiatr w kierunku           VRB°
 predkosc wiatru:           01 kt
 Widzialnosc:               8000 m
+Widzialnosc:            0300 m w kierunku wschodnim
+Widzialnosc dla pasa startowego: 29 wynosi 0900 metrow
+Zjawiska atmosferyczne:    plastry mgla 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(030) ,Podstawa 0E  ft
-Temperatura:               29°C
-temperatura pktu rosy:     09°C
-Cisnienie atmosferyczne:   N BC hPa
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               -03°C
+temperatura pktu rosy:     -03°C
+Cisnienie atmosferyczne:   1020 hPa
 
 Lotnisko(ICAO):            Gdansk
 Dzień miesiąca:            02
@@ -4367,11 +4383,14 @@ Czas UTC:                  02:00
 Wiatr w kierunku           VRB°
 predkosc wiatru:           01 kt
 Widzialnosc:               6000 m
+Widzialnosc:            0200 m w kierunku wschodnim
+Widzialnosc dla pasa startowego: 29 wynosi 1100 metrow, ale maleje
+Zjawiska atmosferyczne:    plastry mgla 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(020) ,Podstawa 0E  ft
-Temperatura:               29°C
-temperatura pktu rosy:     11°C
-Cisnienie atmosferyczne:   D BC hPa
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               -02°C
+temperatura pktu rosy:     -02°C
+Cisnienie atmosferyczne:   1021 hPa
 
 Lotnisko(ICAO):            Gdansk
 Dzień miesiąca:            02
@@ -4512,11 +4531,14 @@ Czas UTC:                  01:00
 Wiatr w kierunku           110°
 predkosc wiatru:           04 kt
 Widzialnosc:               6000 m
+Widzialnosc:            0300 m w kierunku południowym
+Widzialnosc dla pasa startowego: 29 wynosi 0750 metrow, ale wzrasta
+Zjawiska atmosferyczne:    plastry mgla 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(030) ,Podstawa 0S  ft
-Temperatura:               29°C
-temperatura pktu rosy:     07°C
-Cisnienie atmosferyczne:   U BC hPa
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               -02°C
+temperatura pktu rosy:     -02°C
+Cisnienie atmosferyczne:   1021 hPa
 
 Lotnisko(ICAO):            Gdansk
 Dzień miesiąca:            02
@@ -5947,12 +5969,11 @@ Czas UTC:                  14:00
 Wiatr w kierunku           160°
 predkosc wiatru:           03 kt
 Widzialnosc:               1600 m
+Widzialnosc:            0400 m w kierunku zachodnim
+Zjawiska atmosferyczne:    czesciowy mgla zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(040) ,Podstawa 0W  ft
-Typ:                       nieznane_zachmurzenie(RFG)
-Typ:                       nieznane_zachmurzenie(BR )
-Typ:                       nieznane_zachmurzenie(KN0) ,Podstawa 02  ft
-Temperatura:               00°C
+Typ:                       zachmurzenie umiarkowane ,Podstawa 002 ft
+Temperatura:               -00°C
 temperatura pktu rosy:     -00°C
 Cisnienie atmosferyczne:   1026 hPa
 
@@ -6079,11 +6100,14 @@ Czas UTC:                  13:00
 Wiatr w kierunku           180°
 predkosc wiatru:           06 kt
 Widzialnosc:               1400 m
+Widzialnosc:            0800 m w kierunku zachodnim
+Widzialnosc dla pasa startowego: 28 wynosi 1800 metrow
+Zjawiska atmosferyczne:    czesciowy mgla zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(080) ,Podstawa 0W  ft
-Temperatura:               28°C
-temperatura pktu rosy:     18°C
-Cisnienie atmosferyczne:   N PR hPa
+Typ:                       zachmurzenie umiarkowane ,Podstawa 003 ft
+Temperatura:               00°C
+temperatura pktu rosy:     00°C
+Cisnienie atmosferyczne:   1027 hPa
 
 Lotnisko(ICAO):            Krakow
 Dzień miesiąca:            01
@@ -6411,16 +6435,14 @@ Czas UTC:                  11:00
 Wiatr w kierunku           180°
 predkosc wiatru:           05 kt
 Widzialnosc:               2800 m
+Widzialnosc:            1100 m w kierunku południowym
+Zjawiska atmosferyczne:    zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(110) ,Podstawa 0S  ft
-Typ:                       nieznane_zachmurzenie(R S)
-Typ:                       nieznane_zachmurzenie(T00) ,Podstawa 1 B ft
-Typ:                       nieznane_zachmurzenie(N00) ,Podstawa 3 0 ft
-Typ:                       nieznane_zachmurzenie(/M0) ,Podstawa 0 Q ft
-Typ:                       nieznane_zachmurzenie(030)
-Temperatura:               KN°C
-temperatura pktu rosy:     05°C
-Cisnienie atmosferyczne:    hPa
+Typ:                       rozproszone chmury ,Podstawa 001 ft
+Typ:                       zachmurzenie umiarkowane ,Podstawa 003 ft
+Temperatura:               00°C
+temperatura pktu rosy:     -00°C
+Cisnienie atmosferyczne:   1030 hPa
 
 Lotnisko(ICAO):            Wroclaw
 Dzień miesiąca:            01
@@ -6663,11 +6685,14 @@ Czas UTC:                  09:00
 Wiatr w kierunku           VRB°
 predkosc wiatru:           01 kt
 Widzialnosc:               1200 m
+Widzialnosc:            0500 m w kierunku wschodnim
+Widzialnosc dla pasa startowego: 26 wynosi 0900 metrow, ale maleje
+Zjawiska atmosferyczne:    czesciowy mgla zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(050) ,Podstawa 0E  ft
-Temperatura:               26°C
-temperatura pktu rosy:     09°C
-Cisnienie atmosferyczne:   D PR hPa
+Typ:                       rozproszone chmury ,Podstawa 000 ft
+Temperatura:               00°C
+temperatura pktu rosy:     -00°C
+Cisnienie atmosferyczne:   1029 hPa
 
 Lotnisko(ICAO):            Szczecin
 Dzień miesiąca:            01
@@ -7372,16 +7397,13 @@ Czas UTC:                  04:00
 Wiatr w kierunku           160°
 predkosc wiatru:           05 kt
 Widzialnosc:               1600 m
+Widzialnosc:            0300 m w kierunku zachodnim
+Zjawiska atmosferyczne:    plastry mgla zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(030) ,Podstawa 0W  ft
-Typ:                       nieznane_zachmurzenie(CFG)
-Typ:                       nieznane_zachmurzenie(BR )
-Typ:                       nieznane_zachmurzenie(VC0) ,Podstawa  00 ft
-Typ:                       nieznane_zachmurzenie(0/M) ,Podstawa 00  ft
-Typ:                       nieznane_zachmurzenie(103) ,Podstawa 0 ft
-Temperatura:               EM°C
-temperatura pktu rosy:     O °C
-Cisnienie atmosferyczne:   00 B hPa
+Typ:                       zachmurzenie calkowite ,Podstawa 002 ft
+Temperatura:               00°C
+temperatura pktu rosy:     -00°C
+Cisnienie atmosferyczne:   1030 hPa
 
 Lotnisko(ICAO):            Szczecin
 Dzień miesiąca:            01
@@ -7415,12 +7437,11 @@ Czas UTC:                  04:00
 Wiatr w kierunku           120°
 predkosc wiatru:           04 kt
 Widzialnosc:               2000 m
+Widzialnosc:            0500 m w kierunku zachodnim
+Zjawiska atmosferyczne:    plastry mgla zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(050) ,Podstawa 0W  ft
-Typ:                       nieznane_zachmurzenie(CFG)
-Typ:                       nieznane_zachmurzenie(BR )
-Typ:                       nieznane_zachmurzenie(SC )
-Temperatura:               01°C
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               -01°C
 temperatura pktu rosy:     -02°C
 Cisnienie atmosferyczne:   1030 hPa
 
@@ -7520,12 +7541,11 @@ Czas UTC:                  03:00
 Wiatr w kierunku           080°
 predkosc wiatru:           03 kt
 Widzialnosc:               2200 m
+Widzialnosc:            0600 m w kierunku północnym
+Zjawiska atmosferyczne:    plastry mgla zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(060) ,Podstawa 0N  ft
-Typ:                       nieznane_zachmurzenie(CFG)
-Typ:                       nieznane_zachmurzenie(BR )
-Typ:                       nieznane_zachmurzenie(SC )
-Temperatura:               02°C
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               -02°C
 temperatura pktu rosy:     -02°C
 Cisnienie atmosferyczne:   1030 hPa
 
@@ -7598,12 +7618,11 @@ Czas UTC:                  02:00
 Wiatr w kierunku           VRB°
 predkosc wiatru:           01 kt
 Widzialnosc:               2200 m
+Widzialnosc:            0800 m w kierunku zachodnim
+Zjawiska atmosferyczne:    plastry mgla zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(080) ,Podstawa 0W  ft
-Typ:                       nieznane_zachmurzenie(CFG)
-Typ:                       nieznane_zachmurzenie(BR )
-Typ:                       nieznane_zachmurzenie(SC )
-Temperatura:               02°C
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               -02°C
 temperatura pktu rosy:     -02°C
 Cisnienie atmosferyczne:   1031 hPa
 
@@ -7871,11 +7890,14 @@ Czas UTC:                  00:00
 Wiatr w kierunku           170°
 predkosc wiatru:           06 kt
 Widzialnosc:               0400 m
+Widzialnosc:            0300 m w kierunku zachodnim
+Widzialnosc dla pasa startowego: 33 wynosi 0500 metrow
+Zjawiska atmosferyczne:    mgla 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(030) ,Podstawa 0W  ft
-Temperatura:               33°C
-temperatura pktu rosy:     05°C
-Cisnienie atmosferyczne:   N FG hPa
+Typ:                       Widok pionowy ,Podstawa 100 ft
+Temperatura:               01°C
+temperatura pktu rosy:     01°C
+Cisnienie atmosferyczne:   1033 hPa
 
 Lotnisko(ICAO):            Łodz
 Dzień miesiąca:            01
@@ -8007,16 +8029,13 @@ Czas UTC:                  23:00
 Wiatr w kierunku           150°
 predkosc wiatru:           05 kt
 Widzialnosc:               2600 m
+Widzialnosc:            1100 m w kierunku północno-zachodnim
+Zjawiska atmosferyczne:    zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(110) ,Podstawa 0NW ft
-Typ:                       nieznane_zachmurzenie(BR )
-Typ:                       nieznane_zachmurzenie(SC ) ,Podstawa 01/ ft
-Typ:                       nieznane_zachmurzenie(1 Q) ,Podstawa 103 ft
-Typ:                       nieznane_zachmurzenie( BE)
-Typ:                       nieznane_zachmurzenie(MG ) ,Podstawa 050 ft
-Temperatura:                F°C
-temperatura pktu rosy:      B°C
-Cisnienie atmosferyczne:   001 hPa
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               01°C
+temperatura pktu rosy:     01°C
+Cisnienie atmosferyczne:   1034 hPa
 
 Lotnisko(ICAO):            Łodz
 Dzień miesiąca:            30
@@ -8150,16 +8169,13 @@ Czas UTC:                  22:00
 Wiatr w kierunku           150°
 predkosc wiatru:           04 kt
 Widzialnosc:               3800 m
+Widzialnosc:            1100 m w kierunku południowo-wschodnim
+Zjawiska atmosferyczne:    zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(110) ,Podstawa 0SE ft
-Typ:                       nieznane_zachmurzenie(BR )
-Typ:                       nieznane_zachmurzenie(SC ) ,Podstawa 02/ ft
-Typ:                       nieznane_zachmurzenie(2 Q) ,Podstawa 103 ft
-Typ:                       nieznane_zachmurzenie( BE)
-Typ:                       nieznane_zachmurzenie(MG ) ,Podstawa 050 ft
-Temperatura:                F°C
-temperatura pktu rosy:      B°C
-Cisnienie atmosferyczne:   001 hPa
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               02°C
+temperatura pktu rosy:     02°C
+Cisnienie atmosferyczne:   1034 hPa
 
 Lotnisko(ICAO):            Łodz
 Dzień miesiąca:            30
@@ -8704,11 +8720,14 @@ Czas UTC:                  18:00
 Wiatr w kierunku           090°
 predkosc wiatru:           02 kt
 Widzialnosc:               1000 m
+Widzialnosc:            0600 m w kierunku zachodnim
+Widzialnosc dla pasa startowego: 25 wynosi 1600 metrow, ale wzrasta
+Zjawiska atmosferyczne:    plastry mgla zamglenie 
 Zachmurzenie:
-Typ:                       nieznane_zachmurzenie(060) ,Podstawa 0W  ft
-Temperatura:               25°C
-temperatura pktu rosy:     16°C
-Cisnienie atmosferyczne:   U BC hPa
+Typ:                       rozproszone chmury ,Podstawa 006 ft
+Temperatura:               01°C
+temperatura pktu rosy:     01°C
+Cisnienie atmosferyczne:   1034 hPa
 
 Lotnisko(ICAO):            Poznan
 Dzień miesiąca:            30
