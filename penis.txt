@@ -4,6 +4,7 @@ Czas UTC:                  11:00
 Wiatr w kierunku           240°
 predkosc wiatru:           15 kt, w porywach do: 31 kt
 Widzialnosc:               8000 m
+Widzialnosc dla pasa startowego: 29 wynosi 1400 metrow
 Zjawiska atmosferyczne:    słaby deszcz grad zamglenie 
 Zachmurzenie:
 Typ:                       nieliczne chmury ,Podstawa 007 ft
@@ -18,6 +19,18 @@ Czas UTC:                  10:00
 Wiatr w kierunku           VRB°
 predkosc wiatru:           02 kt
 Widzialnosc:               8000 m
+Zachmurzenie:
+Typ:                       brak znaczacego zachmurzenia
+Temperatura:               04°C
+temperatura pktu rosy:     01°C
+Cisnienie atmosferyczne:   1017 hPa
+
+Lotnisko(ICAO):            Gdansk
+Dzień miesiąca:            03
+Czas UTC:                  09:00
+Wiatr w kierunku           210° zmiana kierunku wiatru miedzy: 180°, a 240°
+predkosc wiatru:           08 kt
+Widzialnosc:               chmury i widoczność są w porządku
 Temperatura:               04°C
 temperatura pktu rosy:     01°C
 Cisnienie atmosferyczne:   1017 hPa

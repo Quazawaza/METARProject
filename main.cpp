@@ -164,6 +164,7 @@ void Visiblity(const char* line, int& index, METARdata& data)
 void ProcesRVR(const char* line, int& index ,METARdata& data)
 {
     int rvrindex = 0;
+    bool isrvr = false;
 
     while (line[index] != ' ' && rvrindex < 5)
     {
@@ -175,19 +176,90 @@ void ProcesRVR(const char* line, int& index ,METARdata& data)
                 data.RVR[rvrindex][charIndex++] = line[index++];
             }
             data.RVR[rvrindex][charIndex] = '\0';
+            isrvr = true;
             rvrindex++;
         }
         else
         {
-            index++;
+            break;
         }
     }
     for (int i = rvrindex; i < 5; i++)
     {
         data.RVR[i][0] = '\0';
     }
-    index++;
+    if (isrvr)
+    {
+        index++;
+    }
+
 }
+
+void ProcessRVRData(const METARdata& metarData, RVRdata rvrArray[], int maxRVR)
+{
+    for (int i = 0; i < maxRVR; ++i) {
+        const char* rvrString = metarData.RVR[i];
+        RVRdata& rvr = rvrArray[i];
+
+        rvr.variable = false;
+
+        int rvrindex = 0;
+        int runwayIndex = 0;
+
+
+        if (rvrString[rvrindex] == 'R') 
+        {
+            ++rvrindex;
+            while (rvrString[rvrindex] != '/' && rvrString[rvrindex] != '\0' && runwayIndex < 3) {
+                rvr.runway[runwayIndex++] = rvrString[rvrindex++];
+            }
+            rvr.runway[runwayIndex] = '\0';
+        } 
+        else 
+        {
+            break;
+        }
+        ++rvrindex;
+
+        int visIndex = 0;
+        if (rvrString[rvrindex] == 'P' || rvrString[rvrindex] == 'M') 
+        {
+            rvr.trend = rvrString[rvrindex++];
+        } 
+        else 
+        {
+            rvr.trend = '\0';
+        }
+
+        while (rvrString[rvrindex] != 'V' && rvrString[rvrindex] != 'U' && rvrString[rvrindex] != 'D' && rvrString[rvrindex] != '\0' && visIndex < 4) 
+        {
+            rvr.lowerVis[visIndex++] = rvrString[rvrindex++];
+        }
+        rvr.lowerVis[visIndex] = '\0';
+
+
+        if (rvrString[rvrindex] == 'V') 
+        {
+            rvr.variable = true;
+            ++rvrindex;
+            int upperVisIndex = 0;
+            while (rvrString[rvrindex] != 'U' && rvrString[rvrindex] != 'D' && rvrString[rvrindex] != '\0' && upperVisIndex < 4) 
+            {
+                rvr.upperVis[upperVisIndex++] = rvrString[rvrindex++];
+            }
+            rvr.upperVis[upperVisIndex] = '\0';
+        } 
+        else 
+        {
+            rvr.upperVis[0] = '\0';
+        }
+        if (rvrString[rvrindex] == 'U' || rvrString[rvrindex] == 'D') 
+        {
+            rvr.trend = rvrString[rvrindex];
+        }
+    }
+}
+
 
 void WeatherPhenomena(const char* line, int& index, METARdata& data)
 {
@@ -479,6 +551,83 @@ const char* TranslateCloudData(const char* Cloudsdesc)
     return translation;
 }
 
+const char* TranslateRVR(const RVRdata& rvr)
+{
+    static char translation[128] = {'\0'};
+    int rvrindex = 0;
+    const char* runwayPrefix = "Widzialnosc dla pasa startowego: ";
+     for (int i = 0; runwayPrefix[i] != '\0'; ++i)
+     {
+         translation[rvrindex++] = runwayPrefix[i];
+     }
+     for (int i = 0; rvr.runway[i] != '\0'; ++i)
+     {
+         translation[rvrindex++] = rvr.runway[i];  
+     }
+     char const* str = " wynosi ";
+     for (int i = 0; i < 8; ++i) 
+     {
+         translation[rvrindex++] = str[i];
+     }
+     if (rvr.trend == 'P') 
+     {
+         const char* trendText = "więcej niz ";
+
+         for (int i = 0; trendText[i] != '\0'; ++i)
+             translation[rvrindex++] = trendText[i];
+     } 
+     else if (rvr.trend == 'M') 
+     {
+            const char* trendText = "mniej niz ";
+
+         for (int i = 0; trendText[i] != '\0'; ++i)
+             translation[rvrindex++] = trendText[i];
+     }
+
+    for (int i = 0; rvr.lowerVis[i] != '\0'; ++i)
+        translation[rvrindex++] = rvr.lowerVis[i];
+
+    const char* meters = " metrow";
+
+    for (int i = 0; meters[i] != '\0'; ++i)
+        translation[rvrindex++] = meters[i];
+
+    if (rvr.variable) 
+    {
+        const char* variableText = ", waha się między ";
+        for (int i = 0; variableText[i] != '\0'; ++i)
+            translation[rvrindex++] = variableText[i];
+
+        for (int i = 0; rvr.lowerVis[i] != '\0'; ++i)
+            translation[rvrindex++] = rvr.lowerVis[i];
+
+        const char* andText = " a ";
+        for (int i = 0; andText[i] != '\0'; ++i)
+            translation[rvrindex++] = andText[i];
+
+        for (int i = 0; rvr.upperVis[i] != '\0'; ++i)
+            translation[rvrindex++] = rvr.upperVis[i];
+
+        for (int i = 0; meters[i] != '\0'; ++i)
+            translation[rvrindex++] = meters[i];
+    }
+    if (rvr.trend == 'U') 
+    {
+        const char* trendText = ", ale wzrasta";
+        for (int i = 0; trendText[i] != '\0'; ++i)
+            translation[rvrindex++] = trendText[i];
+    } 
+    else if (rvr.trend == 'D') 
+    {
+        const char* trendText = ", ale maleje";
+        for (int i = 0; trendText[i] != '\0'; ++i)
+            translation[rvrindex++] = trendText[i];
+    }
+    translation[rvrindex] = '\0';
+    return translation;
+    
+}
+
 void DisplayData(const METARdata& data)
 {
     cout << "Lotnisko(ICAO):            " << TranslateICAO(data.ICAO) << endl;
@@ -514,6 +663,18 @@ void DisplayData(const METARdata& data)
     else
     {
         cout << data.Visblty << " m" << endl;
+    }
+    if (data.RVR[0][0] != '\0')
+    {
+        RVRdata rvrArray[5];
+        ProcessRVRData(data, rvrArray, 5);
+        for (int i = 0; i < 5; ++i) 
+        {
+            if (rvrArray[i].runway[0] != '\0') 
+            {
+                cout << TranslateRVR(rvrArray[i]) << endl;
+            }
+        }
     }
 
     if (data.Wthrphnm[0][0] != '\0')
@@ -579,6 +740,18 @@ void SaveToFile(ofstream& outfile, METARdata& data)
     else
     {
         outfile << data.Visblty << " m" << endl;
+    }
+    if (data.RVR[0][0] != '\0')
+    {
+        RVRdata rvrArray[5] = {'\0'};
+        ProcessRVRData(data, rvrArray, 5);
+        for (int i = 0; rvrArray[i].runway[0] !='\0'; ++i) 
+        {
+            if (rvrArray[i].runway[0] != '\0') 
+            {
+                outfile << TranslateRVR(rvrArray[i]) << endl;
+            }
+        }
     }
 
     if (data.Wthrphnm[0][0] != '\0')
